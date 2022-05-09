@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
 
   spec.homepage     = "https://github.com/inaitech/inai-pod"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
-  spec.author       = { "inai Tech" => "cred@inai.io" }
+  spec.author       = { "inai Tech" => "support@inai.io" }
 
   spec.platform     = :ios
   spec.ios.deployment_target = "9.0"
