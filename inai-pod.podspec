@@ -3,7 +3,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "inai-pod"
-  spec.version      = "0.1.12"
+  spec.version      = ENV['POD_VERSION'] || '0.1.12'
   spec.summary      = "CocoaPod implementation of Inai SDK"
   spec.description  = <<-DESC
                     inai's SDKs offer you the ability to control the checkout experience on your website or app without needing to worry about compliance, building and accepting relevant fields based on the geography of your customer and the checkout experience.
