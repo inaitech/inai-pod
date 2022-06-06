@@ -26,7 +26,7 @@ jobs:
            sh xcode_build.sh
         shell: bash
         
-      - name: Push Framework File 
+      - name: Commit Framework File and update tag
         working-directory: ./
         run: |
           rm -rf ./inai_ios_sdk.xcframework
@@ -36,6 +36,7 @@ jobs:
 
           git add inai_ios_sdk.xcframework
           git commit -m "Updating framework file to latest"
+          git tag $(git describe --tags `git rev-list --tags --max-count=1`) -f
         shell: bash
       
       - name: Push changes
@@ -43,6 +44,8 @@ jobs:
         with:
           github_token: ${{ secrets.GH_TOKEN }}
           branch: main
+          tags: true
+          force: true
   
       # Install Cocoapods on the machine
       - name: Install Cocoapods
