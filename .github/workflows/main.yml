@@ -18,7 +18,7 @@ jobs:
         
       - name: Clone SDK Repo
         run: |
-          git clone https://{{ secrets.GH_USERNAME }}:{{ secrets.GH_TOKEN }}@github.com/inaitech/inai-ios-sdk.git sdkclone
+          git clone https://${{ secrets.GH_USERNAME }}:${{ secrets.GH_TOKEN }}@github.com/inaitech/inai-ios-sdk.git sdkclone
       - name: Run build Script
         working-directory: ./sdkclone
         run: |
@@ -32,10 +32,10 @@ jobs:
           rm -rf ./inai_ios_sdk.xcframework
           mv ./sdkclone/inai_ios_sdk.xcframework ./inai_ios_sdk.xcframework
           git config --global user.email "support@inai.io"
-          git config --global user.name "{{ secrets.GH_USERNAME }}"
+          git config --global user.name "${{ secrets.GH_USERNAME }}"
 
           git add inai_ios_sdk.xcframework
-          git commit -m "updating framwoerk file from git action"
+          git commit -m "Updating framework file to latest"
         shell: bash
       
       - name: Push changes
