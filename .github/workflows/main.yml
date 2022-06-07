@@ -45,7 +45,8 @@ jobs:
           github_token: ${{ secrets.GH_TOKEN }}
           branch: main
           tags: true
-  
+          force: true
+          
       # Install Cocoapods on the machine
       - name: Install Cocoapods
         run: gem install cocoapods
