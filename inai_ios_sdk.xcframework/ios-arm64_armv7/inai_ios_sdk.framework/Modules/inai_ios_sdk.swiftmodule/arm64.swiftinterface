@@ -157,7 +157,7 @@ public struct InaiConfig : Swift.Codable {
   public var planId: Swift.String?
   public var countryCode: Swift.String?
   public var customer: inai_ios_sdk.InaiConfig_Customer?
-  public init(token: Swift.String!, orderId: Swift.String? = nil, planId: Swift.String? = nil, styles: inai_ios_sdk.InaiConfig_Styles? = nil, ctaText: Swift.String? = nil, timeout: Swift.Int? = nil, countryCode: Swift.String? = nil, changeLocation: Swift.String? = nil, redirectUrl: Swift.String? = nil, customer: inai_ios_sdk.InaiConfig_Customer? = nil, availablePaymentMethodOptions: [Swift.String]? = nil, usePaymentMethodOption: Swift.String? = nil)
+  public init(token: Swift.String!, orderId: Swift.String? = nil, planId: Swift.String? = nil, styles: inai_ios_sdk.InaiConfig_Styles? = nil, ctaText: Swift.String? = nil, timeout: Swift.Int? = nil, countryCode: Swift.String? = nil, changeLocation: Swift.String? = nil, redirectUrl: Swift.String? = nil, customer: inai_ios_sdk.InaiConfig_Customer? = nil, availablePaymentMethodOptions: [Swift.String]? = nil, usePaymentMethodOption: Swift.String? = nil, locale: Swift.String? = nil)
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
@@ -170,7 +170,8 @@ public struct InaiPayoutsConfig : Swift.Codable {
   public let token: Swift.String!
   public var countryCode: Swift.String?
   public let sessionToken: Swift.String?
-  public init(token: Swift.String!, countryCode: Swift.String? = nil, sessionToken: Swift.String? = nil)
+  public let locale: Swift.String?
+  public init(token: Swift.String!, countryCode: Swift.String? = nil, sessionToken: Swift.String? = nil, locale: Swift.String? = nil)
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
