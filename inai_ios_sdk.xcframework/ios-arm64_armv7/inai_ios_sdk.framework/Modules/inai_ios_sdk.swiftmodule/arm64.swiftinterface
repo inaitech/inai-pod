@@ -98,6 +98,37 @@ public class InaiCheckout {
   public static func getApplePaymentRequest(paymentRequestData: inai_ios_sdk.InaiApplePayRequestData) -> PassKit.PKPaymentRequest
   @objc deinit
 }
+public enum InaiCrypto_EstimateStatus : Swift.Int {
+  case success
+  case failed
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol InaiCryptoEstimateDelegate {
+  func estimateReceived(with result: inai_ios_sdk.InaiCrypto_EstimateResult)
+}
+public struct InaiCrypto_EstimateResult {
+  public var status: inai_ios_sdk.InaiCrypto_EstimateStatus
+  public var data: [Swift.String : Any]
+  public init(status: inai_ios_sdk.InaiCrypto_EstimateStatus = .failed, data: [Swift.String : Any] = [:])
+}
+public struct InaiCryptoPurchaseDetails : Swift.Encodable {
+  public let token: Swift.String!
+  public let cryptoCurrency: Swift.String!
+  public let country: Swift.String!
+  public let paymentMethodOption: Swift.String!
+  public let amount: Swift.String!
+  public let currency: Swift.String!
+  public init(token: Swift.String!, cryptoCurrency: Swift.String!, country: Swift.String!, paymentMethodOption: Swift.String!, amount: Swift.String!, currency: Swift.String!)
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@_hasMissingDesignatedInitializers public class InaiCrypto {
+  public static func getPurchaseEstimate(purchaseDetails: inai_ios_sdk.InaiCryptoPurchaseDetails, viewController: UIKit.UIViewController, delegate: inai_ios_sdk.InaiCryptoEstimateDelegate)
+  @objc deinit
+}
 public struct InaiConfig_Styles_Container : Swift.Codable {
   public init(backgroundColor: Swift.String? = nil, color: Swift.String? = nil, fontFamily: Swift.String? = nil, fontSize: Swift.String? = nil, fontWeight: Swift.Int? = nil, width: Swift.String? = nil, height: Swift.String? = nil, margin: Swift.String? = nil, padding: Swift.String? = nil)
   public func encode(to encoder: Swift.Encoder) throws
@@ -214,6 +245,9 @@ extension inai_ios_sdk.Inai_ValidateFieldsStatus : Swift.RawRepresentable {}
 extension inai_ios_sdk.Inai_PaymentMethodStatus : Swift.Equatable {}
 extension inai_ios_sdk.Inai_PaymentMethodStatus : Swift.Hashable {}
 extension inai_ios_sdk.Inai_PaymentMethodStatus : Swift.RawRepresentable {}
+extension inai_ios_sdk.InaiCrypto_EstimateStatus : Swift.Equatable {}
+extension inai_ios_sdk.InaiCrypto_EstimateStatus : Swift.Hashable {}
+extension inai_ios_sdk.InaiCrypto_EstimateStatus : Swift.RawRepresentable {}
 extension inai_ios_sdk.Inai_PayoutsMethodStatus : Swift.Equatable {}
 extension inai_ios_sdk.Inai_PayoutsMethodStatus : Swift.Hashable {}
 extension inai_ios_sdk.Inai_PayoutsMethodStatus : Swift.RawRepresentable {}
