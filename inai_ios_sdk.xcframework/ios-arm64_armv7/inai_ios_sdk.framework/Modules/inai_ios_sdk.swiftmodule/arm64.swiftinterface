@@ -160,7 +160,7 @@ public struct InaiConfig_Styles : Swift.Codable {
 public struct Inai_Result {
   public var status: inai_ios_sdk.Inai_Status
   public var data: [Swift.String : Any]
-  public init(status: inai_ios_sdk.Inai_Status = .canceled, data: [Swift.String : Any] = [:])
+  public init(status: inai_ios_sdk.Inai_Status = .canceled, data: [Swift.String : Any] = ["code": "UNKNOWN_ERROR", "message": "Unknown Error"])
 }
 public struct Inai_PaymentResult {
   public var status: inai_ios_sdk.Inai_PaymentStatus
@@ -206,15 +206,15 @@ public struct InaiPayoutsConfig : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
-public struct Inai_PayoutsMethodResult {
-  public var status: inai_ios_sdk.Inai_PayoutsMethodStatus
+public struct Inai_PayoutMethodResult {
+  public var status: inai_ios_sdk.Inai_PayoutMethodStatus
   public var data: [Swift.String : Any]
-  public init(status: inai_ios_sdk.Inai_PayoutsMethodStatus = .canceled, data: [Swift.String : Any] = [:])
+  public init(status: inai_ios_sdk.Inai_PayoutMethodStatus = .canceled, data: [Swift.String : Any] = [:])
 }
-public protocol InaiAddPayoutsMethodDelegate {
-  func payoutsMethodAdded(with result: inai_ios_sdk.Inai_PayoutsMethodResult)
+public protocol InaiAddPayoutMethodDelegate {
+  func payoutMethodAdded(with result: inai_ios_sdk.Inai_PayoutMethodResult)
 }
-public enum Inai_PayoutsMethodStatus : Swift.Int {
+public enum Inai_PayoutMethodStatus : Swift.Int {
   case success
   case failed
   case canceled
@@ -227,7 +227,7 @@ public enum Inai_PayoutsMethodStatus : Swift.Int {
 public class InaiPayouts {
   public init?(config: inai_ios_sdk.InaiPayoutsConfig)
   public func validateFields(payoutMethodOption: Swift.String, payoutMethodDetails: [Swift.String : Any], viewController: UIKit.UIViewController, delegate: inai_ios_sdk.InaiValidateFieldsDelegate)
-  public func addPayoutMethod(payoutMethodOption: Swift.String, payoutMethodDetails: [Swift.String : Any], viewController: UIKit.UIViewController, delegate: inai_ios_sdk.InaiAddPayoutsMethodDelegate)
+  public func addPayoutMethod(payoutMethodOption: Swift.String, payoutMethodDetails: [Swift.String : Any], viewController: UIKit.UIViewController, delegate: inai_ios_sdk.InaiAddPayoutMethodDelegate)
   @objc deinit
 }
 extension inai_ios_sdk.Inai_Status : Swift.Equatable {}
@@ -248,6 +248,6 @@ extension inai_ios_sdk.Inai_PaymentMethodStatus : Swift.RawRepresentable {}
 extension inai_ios_sdk.InaiCrypto_EstimateStatus : Swift.Equatable {}
 extension inai_ios_sdk.InaiCrypto_EstimateStatus : Swift.Hashable {}
 extension inai_ios_sdk.InaiCrypto_EstimateStatus : Swift.RawRepresentable {}
-extension inai_ios_sdk.Inai_PayoutsMethodStatus : Swift.Equatable {}
-extension inai_ios_sdk.Inai_PayoutsMethodStatus : Swift.Hashable {}
-extension inai_ios_sdk.Inai_PayoutsMethodStatus : Swift.RawRepresentable {}
+extension inai_ios_sdk.Inai_PayoutMethodStatus : Swift.Equatable {}
+extension inai_ios_sdk.Inai_PayoutMethodStatus : Swift.Hashable {}
+extension inai_ios_sdk.Inai_PayoutMethodStatus : Swift.RawRepresentable {}
