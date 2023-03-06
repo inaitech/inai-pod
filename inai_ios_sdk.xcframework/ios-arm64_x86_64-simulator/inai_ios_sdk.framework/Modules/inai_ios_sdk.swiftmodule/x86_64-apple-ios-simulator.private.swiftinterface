@@ -1,0 +1,299 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name inai_ios_sdk
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import PassKit
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+@_exported import inai_ios_sdk
+public enum Inai_Status : Swift.Int {
+  case success
+  case failed
+  case canceled
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum Inai_PaymentStatus : Swift.Int {
+  case success
+  case failed
+  case canceled
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum Inai_CardInfoStatus : Swift.Int {
+  case success
+  case failed
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum Inai_ValidateFieldsStatus : Swift.Int {
+  case success
+  case failed
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum Inai_InstallmentPlanStatus : Swift.Int {
+  case success
+  case failed
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum Inai_PaymentMethodStatus : Swift.Int {
+  case success
+  case failed
+  case canceled
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum Inai_ExecuteStatus : Swift.Int {
+  case success
+  case failed
+  case canceled
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol InaiCheckoutDelegate {
+  func paymentFinished(with result: inai_ios_sdk.Inai_PaymentResult)
+}
+public protocol InaiPaymentMethodDelegate {
+  func paymentMethodSaved(with result: inai_ios_sdk.Inai_PaymentMethodResult)
+}
+public protocol InaiCardInfoDelegate {
+  func cardInfoFetched(with result: inai_ios_sdk.Inai_CardInfoResult)
+}
+public protocol InaiValidateFieldsDelegate {
+  func fieldsValidationFinished(with result: inai_ios_sdk.Inai_ValidateFieldsResult)
+}
+public protocol InaiInstallmentPlansDelegate {
+  func installmentPlansFetched(with result: inai_ios_sdk.Inai_InstallmentPlansResult)
+}
+public protocol InaiExecuteDelegate {
+  func executeFinished(with result: inai_ios_sdk.Inai_ExecuteResult)
+}
+public protocol InaiCardIdentificationDelegate {
+  func onCardIdentification(with cardInfo: [Swift.String : Any])
+}
+public struct InaiApplePayRequestData {
+  public var currencyCode: Swift.String
+  public var countryCode: Swift.String
+  public var merchantId: Swift.String
+  public var productDescription: Swift.String
+  public var orderAmount: Swift.String
+  public var supportedNetworks: [PassKit.PKPaymentNetwork]
+  public var canMakePayments: Swift.Bool
+  public var canSetupCards: Swift.Bool
+}
+public class InaiCheckout {
+  public var cardIdentificationDelegate: inai_ios_sdk.InaiCardIdentificationDelegate?
+  public init?(config: inai_ios_sdk.InaiConfig)
+  public func presentCheckout(viewController: UIKit.UIViewController, delegate: inai_ios_sdk.InaiCheckoutDelegate)
+  public func addPaymentMethod(type: Swift.String, viewController: UIKit.UIViewController, delegate: inai_ios_sdk.InaiPaymentMethodDelegate)
+  public func presentPayWithPaymentMethod(paymentMethodId: Swift.String, viewController: UIKit.UIViewController, delegate: inai_ios_sdk.InaiCheckoutDelegate)
+  public func getCardInfo(cardNumber: Swift.String, viewController: UIKit.UIViewController, delegate: inai_ios_sdk.InaiCardInfoDelegate)
+  public func validateFields(paymentMethodOption: Swift.String, paymentDetails: [Swift.String : Any], viewController: UIKit.UIViewController, delegate: inai_ios_sdk.InaiValidateFieldsDelegate)
+  public func getInstallmentPlans(paymentMethodOption: Swift.String, paymentDetails: [Swift.String : Any], viewController: UIKit.UIViewController, delegate: inai_ios_sdk.InaiInstallmentPlansDelegate)
+  public func execute(payload: [Swift.String : Any], viewController: UIKit.UIViewController, delegate: inai_ios_sdk.InaiExecuteDelegate)
+  public func makePayment(paymentMethodOption: Swift.String, paymentDetails: [Swift.String : Any], viewController: UIKit.UIViewController, delegate: inai_ios_sdk.InaiCheckoutDelegate)
+  public func remove()
+  public func disableCTA(paymentMethods: [Swift.String])
+  public func enableCTA(paymentMethods: [Swift.String])
+  public func updateCTA(ctaConfig: inai_ios_sdk.InaiCTAConfig)
+  public static func convertPaymentTokenToDict(payment: PassKit.PKPayment) -> [Swift.String : Any]
+  public static func getApplePayRequestData(paymentMethodOptionsData: [Swift.String : Any]) -> inai_ios_sdk.InaiApplePayRequestData?
+  public static func getApplePaymentRequest(paymentRequestData: inai_ios_sdk.InaiApplePayRequestData) -> PassKit.PKPaymentRequest
+  @objc deinit
+}
+public enum InaiCrypto_EstimateStatus : Swift.Int {
+  case success
+  case failed
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol InaiCryptoEstimateDelegate {
+  func estimateReceived(with result: inai_ios_sdk.InaiCrypto_EstimateResult)
+}
+public struct InaiCrypto_EstimateResult {
+  public var status: inai_ios_sdk.InaiCrypto_EstimateStatus
+  public var data: [Swift.String : Any]
+  public init(status: inai_ios_sdk.InaiCrypto_EstimateStatus = .failed, data: [Swift.String : Any] = [:])
+}
+public struct InaiCryptoPurchaseDetails : Swift.Encodable {
+  public let token: Swift.String!
+  public let cryptoCurrency: Swift.String!
+  public let country: Swift.String!
+  public let paymentMethodOption: Swift.String!
+  public let amount: Swift.String!
+  public let currency: Swift.String!
+  public init(token: Swift.String!, cryptoCurrency: Swift.String!, country: Swift.String!, paymentMethodOption: Swift.String!, amount: Swift.String!, currency: Swift.String!)
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@_hasMissingDesignatedInitializers public class InaiCrypto {
+  public static func getPurchaseEstimate(purchaseDetails: inai_ios_sdk.InaiCryptoPurchaseDetails, viewController: UIKit.UIViewController, delegate: inai_ios_sdk.InaiCryptoEstimateDelegate)
+  @objc deinit
+}
+public struct InaiConfig_Styles_Container : Swift.Codable {
+  public init(backgroundColor: Swift.String? = nil, color: Swift.String? = nil, fontFamily: Swift.String? = nil, fontSize: Swift.String? = nil, fontWeight: Swift.Int? = nil, width: Swift.String? = nil, height: Swift.String? = nil, margin: Swift.String? = nil, padding: Swift.String? = nil)
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct InaiConfig_Styles_Cta : Swift.Codable {
+  public init(backgroundColor: Swift.String? = nil, color: Swift.String? = nil, fontWeight: Swift.Int? = nil, fontSize: Swift.String? = nil, minWidth: Swift.String? = nil, borderRadius: Swift.String? = nil, border: Swift.String? = nil, outline: Swift.String? = nil, padding: Swift.String? = nil, cursor: Swift.String? = nil)
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct InaiConfig_Styles_ErrorText : Swift.Codable {
+  public init(color: Swift.String? = nil, fontSize: Swift.String? = nil, fontWeight: Swift.Int? = nil)
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct InaiConfig_Customer : Swift.Codable {
+  public var id: Swift.String?
+  public var email: Swift.String?
+  public var phoneNumber: Swift.String?
+  public init(id: Swift.String? = nil, email: Swift.String? = nil, phoneNumber: Swift.String? = nil)
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct InaiConfig_Styles : Swift.Codable {
+  public init(container: inai_ios_sdk.InaiConfig_Styles_Container? = nil, cta: inai_ios_sdk.InaiConfig_Styles_Cta? = nil, errorText: inai_ios_sdk.InaiConfig_Styles_ErrorText? = nil)
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct Inai_Result {
+  public var status: inai_ios_sdk.Inai_Status
+  public var data: [Swift.String : Any]
+  public init(status: inai_ios_sdk.Inai_Status = .canceled, data: [Swift.String : Any] = ["code": "UNKNOWN_ERROR", "message": "Unknown Error"])
+}
+public struct Inai_PaymentResult {
+  public var status: inai_ios_sdk.Inai_PaymentStatus
+  public var data: [Swift.String : Any]
+  public init(status: inai_ios_sdk.Inai_PaymentStatus = .canceled, data: [Swift.String : Any] = [:])
+}
+public struct Inai_PaymentMethodResult {
+  public var status: inai_ios_sdk.Inai_PaymentMethodStatus
+  public var data: [Swift.String : Any]
+  public init(status: inai_ios_sdk.Inai_PaymentMethodStatus = .canceled, data: [Swift.String : Any] = [:])
+}
+public struct Inai_CardInfoResult {
+  public var status: inai_ios_sdk.Inai_CardInfoStatus
+  public var data: [Swift.String : Any]
+  public init(status: inai_ios_sdk.Inai_CardInfoStatus = .failed, data: [Swift.String : Any] = [:])
+}
+public struct Inai_ValidateFieldsResult {
+  public var status: inai_ios_sdk.Inai_ValidateFieldsStatus
+  public var data: [Swift.String : Any]
+  public init(status: inai_ios_sdk.Inai_ValidateFieldsStatus = .failed, data: [Swift.String : Any] = [:])
+}
+public struct Inai_InstallmentPlansResult {
+  public var status: inai_ios_sdk.Inai_InstallmentPlanStatus
+  public var data: [Swift.String : Any]
+  public init(status: inai_ios_sdk.Inai_InstallmentPlanStatus = .failed, data: [Swift.String : Any] = [:])
+}
+public struct Inai_ExecuteResult {
+  public var status: inai_ios_sdk.Inai_ExecuteStatus
+  public var data: [Swift.String : Any]
+  public init(status: inai_ios_sdk.Inai_ExecuteStatus = .failed, data: [Swift.String : Any] = [:])
+}
+public struct InaiConfig : Swift.Codable {
+  public let token: Swift.String!
+  public var orderId: Swift.String?
+  public var planId: Swift.String?
+  public var countryCode: Swift.String?
+  public var customer: inai_ios_sdk.InaiConfig_Customer?
+  public init(token: Swift.String!, orderId: Swift.String? = nil, planId: Swift.String? = nil, styles: inai_ios_sdk.InaiConfig_Styles? = nil, ctaText: Swift.String? = nil, timeout: Swift.Int? = nil, countryCode: Swift.String? = nil, changeLocation: Swift.String? = nil, redirectUrl: Swift.String? = nil, customer: inai_ios_sdk.InaiConfig_Customer? = nil, availablePaymentMethodOptions: [Swift.String]? = nil, usePaymentMethodOption: Swift.String? = nil, locale: Swift.String? = nil)
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct InaiCTAConfig : Swift.Codable {
+  public init(text: Swift.String? = nil, styles: inai_ios_sdk.InaiConfig_Styles? = nil)
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct InaiPayoutsConfig : Swift.Codable {
+  public let token: Swift.String!
+  public var countryCode: Swift.String?
+  public let sessionToken: Swift.String?
+  public let locale: Swift.String?
+  public init(token: Swift.String!, countryCode: Swift.String? = nil, sessionToken: Swift.String? = nil, locale: Swift.String? = nil)
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct Inai_PayoutMethodResult {
+  public var status: inai_ios_sdk.Inai_PayoutMethodStatus
+  public var data: [Swift.String : Any]
+  public init(status: inai_ios_sdk.Inai_PayoutMethodStatus = .canceled, data: [Swift.String : Any] = [:])
+}
+public protocol InaiAddPayoutMethodDelegate {
+  func payoutMethodAdded(with result: inai_ios_sdk.Inai_PayoutMethodResult)
+}
+public enum Inai_PayoutMethodStatus : Swift.Int {
+  case success
+  case failed
+  case canceled
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public class InaiPayouts {
+  public init?(config: inai_ios_sdk.InaiPayoutsConfig)
+  public func validateFields(payoutMethodOption: Swift.String, payoutMethodDetails: [Swift.String : Any], viewController: UIKit.UIViewController, delegate: inai_ios_sdk.InaiValidateFieldsDelegate)
+  public func addPayoutMethod(payoutMethodOption: Swift.String, payoutMethodDetails: [Swift.String : Any], viewController: UIKit.UIViewController, delegate: inai_ios_sdk.InaiAddPayoutMethodDelegate)
+  @objc deinit
+}
+extension inai_ios_sdk.Inai_Status : Swift.Equatable {}
+extension inai_ios_sdk.Inai_Status : Swift.Hashable {}
+extension inai_ios_sdk.Inai_Status : Swift.RawRepresentable {}
+extension inai_ios_sdk.Inai_PaymentStatus : Swift.Equatable {}
+extension inai_ios_sdk.Inai_PaymentStatus : Swift.Hashable {}
+extension inai_ios_sdk.Inai_PaymentStatus : Swift.RawRepresentable {}
+extension inai_ios_sdk.Inai_CardInfoStatus : Swift.Equatable {}
+extension inai_ios_sdk.Inai_CardInfoStatus : Swift.Hashable {}
+extension inai_ios_sdk.Inai_CardInfoStatus : Swift.RawRepresentable {}
+extension inai_ios_sdk.Inai_ValidateFieldsStatus : Swift.Equatable {}
+extension inai_ios_sdk.Inai_ValidateFieldsStatus : Swift.Hashable {}
+extension inai_ios_sdk.Inai_ValidateFieldsStatus : Swift.RawRepresentable {}
+extension inai_ios_sdk.Inai_InstallmentPlanStatus : Swift.Equatable {}
+extension inai_ios_sdk.Inai_InstallmentPlanStatus : Swift.Hashable {}
+extension inai_ios_sdk.Inai_InstallmentPlanStatus : Swift.RawRepresentable {}
+extension inai_ios_sdk.Inai_PaymentMethodStatus : Swift.Equatable {}
+extension inai_ios_sdk.Inai_PaymentMethodStatus : Swift.Hashable {}
+extension inai_ios_sdk.Inai_PaymentMethodStatus : Swift.RawRepresentable {}
+extension inai_ios_sdk.Inai_ExecuteStatus : Swift.Equatable {}
+extension inai_ios_sdk.Inai_ExecuteStatus : Swift.Hashable {}
+extension inai_ios_sdk.Inai_ExecuteStatus : Swift.RawRepresentable {}
+extension inai_ios_sdk.InaiCrypto_EstimateStatus : Swift.Equatable {}
+extension inai_ios_sdk.InaiCrypto_EstimateStatus : Swift.Hashable {}
+extension inai_ios_sdk.InaiCrypto_EstimateStatus : Swift.RawRepresentable {}
+extension inai_ios_sdk.Inai_PayoutMethodStatus : Swift.Equatable {}
+extension inai_ios_sdk.Inai_PayoutMethodStatus : Swift.Hashable {}
+extension inai_ios_sdk.Inai_PayoutMethodStatus : Swift.RawRepresentable {}
