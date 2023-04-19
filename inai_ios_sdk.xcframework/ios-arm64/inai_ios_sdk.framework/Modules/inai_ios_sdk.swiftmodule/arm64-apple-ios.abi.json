@@ -4499,7 +4499,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(background:backgroundColor:border:borderBottom:borderBottomColor:borderBottomLeftRadius:borderBottomRightRadius:borderBottomStyle:borderBottomWidth:borderColor:borderLeft:borderLeftColor:borderLeftStyle:borderLeftWidth:borderRadius:borderRight:borderRightColor:borderRightStyle:borderRightWidth:borderStyle:borderTop:borderTopColor:borderTopLeftRadius:borderTopRightRadius:borderTopStyle:borderTopWidth:borderWidth:boxShadow:color:webkitFontSmoothing:mozOsxFontSmoothing:fontFamily:fontStyle:fontSize:fontVariant:fontWeight:fontSmoothing:height:letterSpacing:lineHeight:margin:marginBottom:marginLeft:marginRight:marginTop:outline:outlineOffset:padding:paddingBottom:paddingLeft:paddingRight:textDecoration:textShadow:textTransform:transition:width:display:alignItems:justifyContent:)",
+            "printedName": "init(background:backgroundColor:border:borderBottom:borderBottomColor:borderBottomLeftRadius:borderBottomRightRadius:borderBottomStyle:borderBottomWidth:borderColor:borderLeft:borderLeftColor:borderLeftStyle:borderLeftWidth:borderRadius:borderRight:borderRightColor:borderRightStyle:borderRightWidth:borderStyle:borderTop:borderTopColor:borderTopLeftRadius:borderTopRightRadius:borderTopStyle:borderTopWidth:borderWidth:boxShadow:color:webkitFontSmoothing:mozOsxFontSmoothing:fontFamily:fontStyle:fontSize:fontVariant:fontWeight:fontSmoothing:height:letterSpacing:lineHeight:margin:marginBottom:marginLeft:marginRight:marginTop:outline:outlineOffset:padding:paddingBottom:paddingLeft:paddingRight:textDecoration:textShadow:textTransform:transition:width:display:alignItems:justifyContent:fill:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5391,11 +5391,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12inai_ios_sdk27InaiConfig_Styles_ContainerV10background0H5Color6border0J6Bottom0jkI00jK10LeftRadius0jk5RightM00jK5Style0jK5Width0jI00jL00jlI00jlO00jlP00jM00jN00jnI00jnO00jnP00jO00J3Top0jqI00jqlM00jqnM00jqO00jqP00jP09boxShadow5color19webkitFontSmoothing06mozOsxvW010fontFamily0zO00Z4Size0Z7Variant0Z6Weight0zW06height13letterSpacing10lineHeight6margin06marginK006marginL006marginN006marginQ07outline13outlineOffset7padding07paddingK007paddingL007paddingN014textDecoration04textS013textTransform10transition5width7display10alignItems14justifyContentACSSSg_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_SiSgA35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_tcfc",
-            "mangledName": "$s12inai_ios_sdk27InaiConfig_Styles_ContainerV10background0H5Color6border0J6Bottom0jkI00jK10LeftRadius0jk5RightM00jK5Style0jK5Width0jI00jL00jlI00jlO00jlP00jM00jN00jnI00jnO00jnP00jO00J3Top0jqI00jqlM00jqnM00jqO00jqP00jP09boxShadow5color19webkitFontSmoothing06mozOsxvW010fontFamily0zO00Z4Size0Z7Variant0Z6Weight0zW06height13letterSpacing10lineHeight6margin06marginK006marginL006marginN006marginQ07outline13outlineOffset7padding07paddingK007paddingL007paddingN014textDecoration04textS013textTransform10transition5width7display10alignItems14justifyContentACSSSg_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_SiSgA35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_tcfc",
+            "usr": "s:12inai_ios_sdk27InaiConfig_Styles_ContainerV10background0H5Color6border0J6Bottom0jkI00jK10LeftRadius0jk5RightM00jK5Style0jK5Width0jI00jL00jlI00jlO00jlP00jM00jN00jnI00jnO00jnP00jO00J3Top0jqI00jqlM00jqnM00jqO00jqP00jP09boxShadow5color19webkitFontSmoothing06mozOsxvW010fontFamily0zO00Z4Size0Z7Variant0Z6Weight0zW06height13letterSpacing10lineHeight6margin06marginK006marginL006marginN006marginQ07outline13outlineOffset7padding07paddingK007paddingL007paddingN014textDecoration04textS013textTransform10transition5width7display10alignItems14justifyContent4fillACSSSg_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_SiSgA36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_tcfc",
+            "mangledName": "$s12inai_ios_sdk27InaiConfig_Styles_ContainerV10background0H5Color6border0J6Bottom0jkI00jK10LeftRadius0jk5RightM00jK5Style0jK5Width0jI00jL00jlI00jlO00jlP00jM00jN00jnI00jnO00jnP00jO00J3Top0jqI00jqlM00jqnM00jqO00jqP00jP09boxShadow5color19webkitFontSmoothing06mozOsxvW010fontFamily0zO00Z4Size0Z7Variant0Z6Weight0zW06height13letterSpacing10lineHeight6margin06marginK006marginL006marginN006marginQ07outline13outlineOffset7padding07paddingK007paddingL007paddingN014textDecoration04textS013textTransform10transition5width7display10alignItems14justifyContent4fillACSSSg_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_SiSgA36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_tcfc",
             "moduleName": "inai_ios_sdk",
             "declAttributes": [
               "AccessControl"
@@ -5619,7 +5634,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(background:backgroundColor:border:borderBottom:borderBottomColor:borderBottomLeftRadius:borderBottomRightRadius:borderBottomStyle:borderBottomWidth:borderColor:borderLeft:borderLeftColor:borderLeftStyle:borderLeftWidth:borderRadius:borderRight:borderRightColor:borderRightStyle:borderRightWidth:borderStyle:borderTop:borderTopColor:borderTopLeftRadius:borderTopRightRadius:borderTopStyle:borderTopWidth:borderWidth:boxShadow:color:webkitFontSmoothing:mozOsxFontSmoothing:fontFamily:fontStyle:fontSize:fontVariant:fontWeight:fontSmoothing:height:letterSpacing:lineHeight:margin:marginBottom:marginLeft:marginRight:marginTop:outline:outlineOffset:padding:paddingBottom:paddingLeft:paddingRight:textDecoration:textShadow:textTransform:transition:width:display:alignItems:justifyContent:)",
+            "printedName": "init(background:backgroundColor:border:borderBottom:borderBottomColor:borderBottomLeftRadius:borderBottomRightRadius:borderBottomStyle:borderBottomWidth:borderColor:borderLeft:borderLeftColor:borderLeftStyle:borderLeftWidth:borderRadius:borderRight:borderRightColor:borderRightStyle:borderRightWidth:borderStyle:borderTop:borderTopColor:borderTopLeftRadius:borderTopRightRadius:borderTopStyle:borderTopWidth:borderWidth:boxShadow:color:webkitFontSmoothing:mozOsxFontSmoothing:fontFamily:fontStyle:fontSize:fontVariant:fontWeight:fontSmoothing:height:letterSpacing:lineHeight:margin:marginBottom:marginLeft:marginRight:marginTop:outline:outlineOffset:padding:paddingBottom:paddingLeft:paddingRight:textDecoration:textShadow:textTransform:transition:width:display:alignItems:justifyContent:fill:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6511,11 +6526,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12inai_ios_sdk21InaiConfig_Styles_CtaV10background0H5Color6border0J6Bottom0jkI00jK10LeftRadius0jk5RightM00jK5Style0jK5Width0jI00jL00jlI00jlO00jlP00jM00jN00jnI00jnO00jnP00jO00J3Top0jqI00jqlM00jqnM00jqO00jqP00jP09boxShadow5color19webkitFontSmoothing06mozOsxvW010fontFamily0zO00Z4Size0Z7Variant0Z6Weight0zW06height13letterSpacing10lineHeight6margin06marginK006marginL006marginN006marginQ07outline13outlineOffset7padding07paddingK007paddingL007paddingN014textDecoration04textS013textTransform10transition5width7display10alignItems14justifyContentACSSSg_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_SiSgA35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_tcfc",
-            "mangledName": "$s12inai_ios_sdk21InaiConfig_Styles_CtaV10background0H5Color6border0J6Bottom0jkI00jK10LeftRadius0jk5RightM00jK5Style0jK5Width0jI00jL00jlI00jlO00jlP00jM00jN00jnI00jnO00jnP00jO00J3Top0jqI00jqlM00jqnM00jqO00jqP00jP09boxShadow5color19webkitFontSmoothing06mozOsxvW010fontFamily0zO00Z4Size0Z7Variant0Z6Weight0zW06height13letterSpacing10lineHeight6margin06marginK006marginL006marginN006marginQ07outline13outlineOffset7padding07paddingK007paddingL007paddingN014textDecoration04textS013textTransform10transition5width7display10alignItems14justifyContentACSSSg_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_SiSgA35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_A35_tcfc",
+            "usr": "s:12inai_ios_sdk21InaiConfig_Styles_CtaV10background0H5Color6border0J6Bottom0jkI00jK10LeftRadius0jk5RightM00jK5Style0jK5Width0jI00jL00jlI00jlO00jlP00jM00jN00jnI00jnO00jnP00jO00J3Top0jqI00jqlM00jqnM00jqO00jqP00jP09boxShadow5color19webkitFontSmoothing06mozOsxvW010fontFamily0zO00Z4Size0Z7Variant0Z6Weight0zW06height13letterSpacing10lineHeight6margin06marginK006marginL006marginN006marginQ07outline13outlineOffset7padding07paddingK007paddingL007paddingN014textDecoration04textS013textTransform10transition5width7display10alignItems14justifyContent4fillACSSSg_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_SiSgA36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_tcfc",
+            "mangledName": "$s12inai_ios_sdk21InaiConfig_Styles_CtaV10background0H5Color6border0J6Bottom0jkI00jK10LeftRadius0jk5RightM00jK5Style0jK5Width0jI00jL00jlI00jlO00jlP00jM00jN00jnI00jnO00jnP00jO00J3Top0jqI00jqlM00jqnM00jqO00jqP00jP09boxShadow5color19webkitFontSmoothing06mozOsxvW010fontFamily0zO00Z4Size0Z7Variant0Z6Weight0zW06height13letterSpacing10lineHeight6margin06marginK006marginL006marginN006marginQ07outline13outlineOffset7padding07paddingK007paddingL007paddingN014textDecoration04textS013textTransform10transition5width7display10alignItems14justifyContent4fillACSSSg_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_SiSgA36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_A36_tcfc",
             "moduleName": "inai_ios_sdk",
             "declAttributes": [
               "AccessControl"
@@ -11929,119 +11959,119 @@
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "Dictionary",
-      "offset": 16453,
+      "offset": 16600,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 16534,
+      "offset": 16681,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 16542,
+      "offset": 16689,
       "length": 15,
       "value": "\"UNKNOWN_ERROR\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 16559,
+      "offset": 16706,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 16570,
+      "offset": 16717,
       "length": 15,
       "value": "\"Unknown Error\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "Dictionary",
-      "offset": 16814,
+      "offset": 16961,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "Dictionary",
-      "offset": 16901,
+      "offset": 17048,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "Dictionary",
-      "offset": 17156,
+      "offset": 17303,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "Dictionary",
-      "offset": 17249,
+      "offset": 17396,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "Dictionary",
-      "offset": 17488,
+      "offset": 17635,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "Dictionary",
-      "offset": 17574,
+      "offset": 17721,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "Dictionary",
-      "offset": 17831,
+      "offset": 17978,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "Dictionary",
-      "offset": 17923,
+      "offset": 18070,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "Dictionary",
-      "offset": 18184,
+      "offset": 18331,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "Dictionary",
-      "offset": 18277,
+      "offset": 18424,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "Dictionary",
-      "offset": 18519,
+      "offset": 18666,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "Dictionary",
-      "offset": 18604,
+      "offset": 18751,
       "length": 3,
       "value": "[]"
     },
@@ -12083,7 +12113,7 @@
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11625,
+      "offset": 11687,
       "length": 5,
       "value": "false"
     },
