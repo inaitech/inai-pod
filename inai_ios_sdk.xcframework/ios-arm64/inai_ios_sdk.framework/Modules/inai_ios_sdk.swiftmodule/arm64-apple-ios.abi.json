@@ -12004,104 +12004,104 @@
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "StringLiteral",
       "offset": 16876,
-      "length": 15,
-      "value": "\"UNKNOWN_ERROR\""
+      "length": 18,
+      "value": "\"PAYMENT_CANCELED\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 16893,
+      "offset": 16896,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 16904,
-      "length": 15,
-      "value": "\"Unknown Error\""
+      "offset": 16907,
+      "length": 26,
+      "value": "\"Payment Canceled by User\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "Dictionary",
-      "offset": 17148,
+      "offset": 17162,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "Dictionary",
-      "offset": 17235,
+      "offset": 17249,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "Dictionary",
-      "offset": 17490,
+      "offset": 17504,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "Dictionary",
-      "offset": 17583,
+      "offset": 17597,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "Dictionary",
-      "offset": 17822,
+      "offset": 17836,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "Dictionary",
-      "offset": 17908,
+      "offset": 17922,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "Dictionary",
-      "offset": 18165,
+      "offset": 18179,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "Dictionary",
-      "offset": 18257,
+      "offset": 18271,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "Dictionary",
-      "offset": 18518,
+      "offset": 18532,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "Dictionary",
-      "offset": 18611,
+      "offset": 18625,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "Dictionary",
-      "offset": 18853,
+      "offset": 18867,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "Dictionary",
-      "offset": 18938,
+      "offset": 18952,
       "length": 3,
       "value": "[]"
     },

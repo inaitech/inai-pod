@@ -195,7 +195,7 @@ public struct InaiConfig_Styles : Swift.Codable {
 public struct Inai_Result {
   public var status: inai_ios_sdk.Inai_Status
   public var data: [Swift.String : Any]
-  public init(status: inai_ios_sdk.Inai_Status = .canceled, data: [Swift.String : Any] = ["code": "UNKNOWN_ERROR", "message": "Unknown Error"])
+  public init(status: inai_ios_sdk.Inai_Status = .canceled, data: [Swift.String : Any] = ["code": "PAYMENT_CANCELED", "message": "Payment Canceled by User"])
 }
 public struct Inai_PaymentResult {
   public var status: inai_ios_sdk.Inai_PaymentStatus
