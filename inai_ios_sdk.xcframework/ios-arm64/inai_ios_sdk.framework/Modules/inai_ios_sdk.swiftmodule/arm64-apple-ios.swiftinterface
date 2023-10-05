@@ -3,6 +3,7 @@
 // swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name inai_ios_sdk
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
+import MachO
 import PassKit
 import Swift
 import UIKit
@@ -10,6 +11,25 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 @_exported import inai_ios_sdk
+@_hasMissingDesignatedInitializers public class InaiBreadCrumb : Swift.Codable {
+  required public init(from decoder: Swift.Decoder) throws
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@_hasMissingDesignatedInitializers public class ValuesModel : Swift.Codable {
+  required public init(from decoder: Swift.Decoder) throws
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@_hasMissingDesignatedInitializers public class InaiBreadCrumbDataModel : Swift.Codable {
+  required public init(from decoder: Swift.Decoder) throws
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct CrashModel : Swift.Codable {
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
 public enum Inai_Status : Swift.Int {
   case success
   case failed
@@ -108,7 +128,7 @@ public struct InaiApplePayRequestData {
   public var canMakePayments: Swift.Bool
   public var canSetupCards: Swift.Bool
 }
-public class InaiCheckout {
+@objc public class InaiCheckout : ObjectiveC.NSObject {
   public var cardIdentificationDelegate: inai_ios_sdk.InaiCardIdentificationDelegate?
   public init?(config: inai_ios_sdk.InaiConfig)
   public func presentCheckout(viewController: UIKit.UIViewController, delegate: inai_ios_sdk.InaiCheckoutDelegate)
@@ -128,6 +148,9 @@ public class InaiCheckout {
   public static func getApplePaymentRequest(paymentRequestData: inai_ios_sdk.InaiApplePayRequestData) -> PassKit.PKPaymentRequest
   @objc deinit
 }
+extension inai_ios_sdk.InaiCheckout : inai_ios_sdk.CrashEyeDelegate {
+}
+prefix operator /
 public enum InaiCrypto_EstimateStatus : Swift.Int {
   case success
   case failed
@@ -241,6 +264,31 @@ public struct InaiCTAConfig : Swift.Codable {
   public init(text: Swift.String? = nil, styles: inai_ios_sdk.InaiConfig_Styles? = nil)
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
+}
+public protocol CrashEyeDelegate : ObjectiveC.NSObjectProtocol {
+  func crashEyeDidCatchCrash(with model: inai_ios_sdk.CrashModel)
+}
+extension inai_ios_sdk.CrashEyeDelegate {
+  public func crashEyeDidCatchCrash(with model: inai_ios_sdk.CrashModel)
+}
+@objc @_inheritsConvenienceInitializers public class CrashEye : ObjectiveC.NSObject {
+  public static var isOpen: Swift.Bool {
+    get
+  }
+  public static var token: Swift.String {
+    get
+  }
+  public static var orderId: Swift.String {
+    get
+  }
+  public static var countryCode: Swift.String? {
+    get
+  }
+  public static var breadCrumb: [inai_ios_sdk.ValuesModel]
+  open class func add(token: Swift.String, orderId: Swift.String, countryCode: Swift.String?, delegate: inai_ios_sdk.CrashEyeDelegate)
+  open class func remove(delegate: inai_ios_sdk.CrashEyeDelegate)
+  @objc override dynamic public init()
+  @objc deinit
 }
 public struct InaiPayoutsConfig : Swift.Codable {
   public let token: Swift.String!

@@ -16,6 +16,365 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "inai_ios_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InaiBreadCrumb",
+        "printedName": "InaiBreadCrumb",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InaiBreadCrumb",
+                "printedName": "inai_ios_sdk.InaiBreadCrumb",
+                "usr": "s:12inai_ios_sdk14InaiBreadCrumbC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12inai_ios_sdk14InaiBreadCrumbC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12inai_ios_sdk14InaiBreadCrumbC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "inai_ios_sdk",
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12inai_ios_sdk14InaiBreadCrumbC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12inai_ios_sdk14InaiBreadCrumbC6encode2toys7Encoder_p_tKF",
+            "moduleName": "inai_ios_sdk",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12inai_ios_sdk14InaiBreadCrumbC",
+        "mangledName": "$s12inai_ios_sdk14InaiBreadCrumbC",
+        "moduleName": "inai_ios_sdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ValuesModel",
+        "printedName": "ValuesModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ValuesModel",
+                "printedName": "inai_ios_sdk.ValuesModel",
+                "usr": "s:12inai_ios_sdk11ValuesModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12inai_ios_sdk11ValuesModelC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12inai_ios_sdk11ValuesModelC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "inai_ios_sdk",
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12inai_ios_sdk11ValuesModelC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12inai_ios_sdk11ValuesModelC6encode2toys7Encoder_p_tKF",
+            "moduleName": "inai_ios_sdk",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12inai_ios_sdk11ValuesModelC",
+        "mangledName": "$s12inai_ios_sdk11ValuesModelC",
+        "moduleName": "inai_ios_sdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InaiBreadCrumbDataModel",
+        "printedName": "InaiBreadCrumbDataModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InaiBreadCrumbDataModel",
+                "printedName": "inai_ios_sdk.InaiBreadCrumbDataModel",
+                "usr": "s:12inai_ios_sdk23InaiBreadCrumbDataModelC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12inai_ios_sdk23InaiBreadCrumbDataModelC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12inai_ios_sdk23InaiBreadCrumbDataModelC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "inai_ios_sdk",
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12inai_ios_sdk23InaiBreadCrumbDataModelC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12inai_ios_sdk23InaiBreadCrumbDataModelC6encode2toys7Encoder_p_tKF",
+            "moduleName": "inai_ios_sdk",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12inai_ios_sdk23InaiBreadCrumbDataModelC",
+        "mangledName": "$s12inai_ios_sdk23InaiBreadCrumbDataModelC",
+        "moduleName": "inai_ios_sdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CrashModel",
+        "printedName": "CrashModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CrashModel",
+                "printedName": "inai_ios_sdk.CrashModel",
+                "usr": "s:12inai_ios_sdk10CrashModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12inai_ios_sdk10CrashModelV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12inai_ios_sdk10CrashModelV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "inai_ios_sdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12inai_ios_sdk10CrashModelV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s12inai_ios_sdk10CrashModelV6encode2toys7Encoder_p_tKF",
+            "moduleName": "inai_ios_sdk",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12inai_ios_sdk10CrashModelV",
+        "mangledName": "$s12inai_ios_sdk10CrashModelV",
+        "moduleName": "inai_ios_sdk",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "inai_ios_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "PassKit",
         "printedName": "PassKit",
         "declKind": "Import",
@@ -2743,7 +3102,7 @@
                     "kind": "TypeNominal",
                     "name": "InaiCheckout",
                     "printedName": "inai_ios_sdk.InaiCheckout",
-                    "usr": "s:12inai_ios_sdk12InaiCheckoutC"
+                    "usr": "c:@M@inai_ios_sdk@objc(cs)InaiCheckout"
                   }
                 ],
                 "usr": "s:Sq"
@@ -3381,15 +3740,131 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InaiCheckout",
+                "printedName": "inai_ios_sdk.InaiCheckout",
+                "usr": "c:@M@inai_ios_sdk@objc(cs)InaiCheckout"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@inai_ios_sdk@objc(cs)InaiCheckout(im)init",
+            "mangledName": "$s12inai_ios_sdk12InaiCheckoutCACycfc",
+            "moduleName": "inai_ios_sdk",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "s:12inai_ios_sdk12InaiCheckoutC",
+        "usr": "c:@M@inai_ios_sdk@objc(cs)InaiCheckout",
         "mangledName": "$s12inai_ios_sdk12InaiCheckoutC",
         "moduleName": "inai_ios_sdk",
         "declAttributes": [
           "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "CrashEyeDelegate",
+            "printedName": "CrashEyeDelegate",
+            "usr": "s:12inai_ios_sdk16CrashEyeDelegateP",
+            "mangledName": "$s12inai_ios_sdk16CrashEyeDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "inai_ios_sdk",
+        "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "inai_ios_sdk"
+      },
+      {
+        "kind": "OperatorDecl",
+        "name": "\/",
+        "printedName": "\/",
+        "declKind": "PrefixOperator",
+        "moduleName": "inai_ios_sdk",
+        "declAttributes": [
+          "Prefix"
         ]
       },
       {
@@ -10326,6 +10801,620 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "inai_ios_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "inai_ios_sdk"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CrashEyeDelegate",
+        "printedName": "CrashEyeDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "crashEyeDidCatchCrash",
+            "printedName": "crashEyeDidCatchCrash(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CrashModel",
+                "printedName": "inai_ios_sdk.CrashModel",
+                "usr": "s:12inai_ios_sdk10CrashModelV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12inai_ios_sdk16CrashEyeDelegateP05crashe8DidCatchD04withyAA0D5ModelV_tF",
+            "mangledName": "$s12inai_ios_sdk16CrashEyeDelegateP05crashe8DidCatchD04withyAA0D5ModelV_tF",
+            "moduleName": "inai_ios_sdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : inai_ios_sdk.CrashEyeDelegate>",
+            "sugared_genericSig": "<Self where Self : inai_ios_sdk.CrashEyeDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "crashEyeDidCatchCrash",
+            "printedName": "crashEyeDidCatchCrash(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CrashModel",
+                "printedName": "inai_ios_sdk.CrashModel",
+                "usr": "s:12inai_ios_sdk10CrashModelV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12inai_ios_sdk16CrashEyeDelegatePAAE05crashe8DidCatchD04withyAA0D5ModelV_tF",
+            "mangledName": "$s12inai_ios_sdk16CrashEyeDelegatePAAE05crashe8DidCatchD04withyAA0D5ModelV_tF",
+            "moduleName": "inai_ios_sdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : inai_ios_sdk.CrashEyeDelegate>",
+            "sugared_genericSig": "<Self where Self : inai_ios_sdk.CrashEyeDelegate>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12inai_ios_sdk16CrashEyeDelegateP",
+        "mangledName": "$s12inai_ios_sdk16CrashEyeDelegateP",
+        "moduleName": "inai_ios_sdk",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CrashEye",
+        "printedName": "CrashEye",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isOpen",
+            "printedName": "isOpen",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12inai_ios_sdk8CrashEyeC6isOpenSbvpZ",
+            "mangledName": "$s12inai_ios_sdk8CrashEyeC6isOpenSbvpZ",
+            "moduleName": "inai_ios_sdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12inai_ios_sdk8CrashEyeC6isOpenSbvgZ",
+                "mangledName": "$s12inai_ios_sdk8CrashEyeC6isOpenSbvgZ",
+                "moduleName": "inai_ios_sdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12inai_ios_sdk8CrashEyeC5tokenSSvpZ",
+            "mangledName": "$s12inai_ios_sdk8CrashEyeC5tokenSSvpZ",
+            "moduleName": "inai_ios_sdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12inai_ios_sdk8CrashEyeC5tokenSSvgZ",
+                "mangledName": "$s12inai_ios_sdk8CrashEyeC5tokenSSvgZ",
+                "moduleName": "inai_ios_sdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "orderId",
+            "printedName": "orderId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12inai_ios_sdk8CrashEyeC7orderIdSSvpZ",
+            "mangledName": "$s12inai_ios_sdk8CrashEyeC7orderIdSSvpZ",
+            "moduleName": "inai_ios_sdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12inai_ios_sdk8CrashEyeC7orderIdSSvgZ",
+                "mangledName": "$s12inai_ios_sdk8CrashEyeC7orderIdSSvgZ",
+                "moduleName": "inai_ios_sdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "countryCode",
+            "printedName": "countryCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12inai_ios_sdk8CrashEyeC11countryCodeSSSgvpZ",
+            "mangledName": "$s12inai_ios_sdk8CrashEyeC11countryCodeSSSgvpZ",
+            "moduleName": "inai_ios_sdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12inai_ios_sdk8CrashEyeC11countryCodeSSSgvgZ",
+                "mangledName": "$s12inai_ios_sdk8CrashEyeC11countryCodeSSSgvgZ",
+                "moduleName": "inai_ios_sdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "breadCrumb",
+            "printedName": "breadCrumb",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[inai_ios_sdk.ValuesModel]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ValuesModel",
+                    "printedName": "inai_ios_sdk.ValuesModel",
+                    "usr": "s:12inai_ios_sdk11ValuesModelC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12inai_ios_sdk8CrashEyeC10breadCrumbSayAA11ValuesModelCGvpZ",
+            "mangledName": "$s12inai_ios_sdk8CrashEyeC10breadCrumbSayAA11ValuesModelCGvpZ",
+            "moduleName": "inai_ios_sdk",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[inai_ios_sdk.ValuesModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ValuesModel",
+                        "printedName": "inai_ios_sdk.ValuesModel",
+                        "usr": "s:12inai_ios_sdk11ValuesModelC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12inai_ios_sdk8CrashEyeC10breadCrumbSayAA11ValuesModelCGvgZ",
+                "mangledName": "$s12inai_ios_sdk8CrashEyeC10breadCrumbSayAA11ValuesModelCGvgZ",
+                "moduleName": "inai_ios_sdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[inai_ios_sdk.ValuesModel]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ValuesModel",
+                        "printedName": "inai_ios_sdk.ValuesModel",
+                        "usr": "s:12inai_ios_sdk11ValuesModelC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12inai_ios_sdk8CrashEyeC10breadCrumbSayAA11ValuesModelCGvsZ",
+                "mangledName": "$s12inai_ios_sdk8CrashEyeC10breadCrumbSayAA11ValuesModelCGvsZ",
+                "moduleName": "inai_ios_sdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12inai_ios_sdk8CrashEyeC10breadCrumbSayAA11ValuesModelCGvMZ",
+                "mangledName": "$s12inai_ios_sdk8CrashEyeC10breadCrumbSayAA11ValuesModelCGvMZ",
+                "moduleName": "inai_ios_sdk",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "add",
+            "printedName": "add(token:orderId:countryCode:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CrashEyeDelegate",
+                "printedName": "inai_ios_sdk.CrashEyeDelegate",
+                "usr": "s:12inai_ios_sdk16CrashEyeDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12inai_ios_sdk8CrashEyeC3add5token7orderId11countryCode8delegateySS_S2SSgAA0dE8Delegate_ptFZ",
+            "mangledName": "$s12inai_ios_sdk8CrashEyeC3add5token7orderId11countryCode8delegateySS_S2SSgAA0dE8Delegate_ptFZ",
+            "moduleName": "inai_ios_sdk",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remove",
+            "printedName": "remove(delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CrashEyeDelegate",
+                "printedName": "inai_ios_sdk.CrashEyeDelegate",
+                "usr": "s:12inai_ios_sdk16CrashEyeDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12inai_ios_sdk8CrashEyeC6remove8delegateyAA0dE8Delegate_p_tFZ",
+            "mangledName": "$s12inai_ios_sdk8CrashEyeC6remove8delegateyAA0dE8Delegate_p_tFZ",
+            "moduleName": "inai_ios_sdk",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CrashEye",
+                "printedName": "inai_ios_sdk.CrashEye",
+                "usr": "c:@M@inai_ios_sdk@objc(cs)CrashEye"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@inai_ios_sdk@objc(cs)CrashEye(im)init",
+            "mangledName": "$s12inai_ios_sdk8CrashEyeCACycfc",
+            "moduleName": "inai_ios_sdk",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@inai_ios_sdk@objc(cs)CrashEye",
+        "mangledName": "$s12inai_ios_sdk8CrashEyeC",
+        "moduleName": "inai_ios_sdk",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "InaiPayoutsConfig",
         "printedName": "InaiPayoutsConfig",
@@ -11526,12 +12615,379 @@
           "AccessControl",
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "inai_ios_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "inai_ios_sdk"
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 208,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 297,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 315,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 336,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 355,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 374,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 208,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 297,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 315,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 336,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 355,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 374,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 208,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 297,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 315,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 336,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 355,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 374,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1055,
+      "length": 7,
+      "value": "\"level\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1087,
+      "length": 10,
+      "value": "\"category\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1123,
+      "length": 11,
+      "value": "\"timestamp\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1155,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1185,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1215,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1055,
+      "length": 7,
+      "value": "\"level\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1087,
+      "length": 10,
+      "value": "\"category\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1123,
+      "length": 11,
+      "value": "\"timestamp\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1155,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1185,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1215,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2398,
+      "length": 16,
+      "value": "\"beingPresented\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2437,
+      "length": 8,
+      "value": "\"screen\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2467,
+      "length": 7,
+      "value": "\"state\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2497,
+      "length": 8,
+      "value": "\"action\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2527,
+      "length": 7,
+      "value": "\"title\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2555,
+      "length": 6,
+      "value": "\"view\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2398,
+      "length": 16,
+      "value": "\"beingPresented\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2437,
+      "length": 8,
+      "value": "\"screen\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2467,
+      "length": 7,
+      "value": "\"state\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2497,
+      "length": 8,
+      "value": "\"action\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2527,
+      "length": 7,
+      "value": "\"title\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 2555,
+      "length": 6,
+      "value": "\"view\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4889,
+      "length": 8,
+      "value": "\"values\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4889,
+      "length": 8,
+      "value": "\"values\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 6337,
+      "length": 17,
+      "value": "\"ios_sdk_version\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 6446,
+      "length": 13,
+      "value": "\"ios_version\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 6337,
+      "length": 17,
+      "value": "\"ios_sdk_version\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 6446,
+      "length": 13,
+      "value": "\"ios_version\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 9412,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
+      "kind": "StringLiteral",
+      "offset": 9434,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckout.swift",
       "kind": "IntegerLiteral",
       "offset": 218,
@@ -11912,23 +13368,37 @@
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckout.swift",
       "kind": "StringLiteral",
-      "offset": 3380,
+      "offset": 3389,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckout.swift",
       "kind": "StringLiteral",
-      "offset": 3419,
+      "offset": 3428,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckout.swift",
       "kind": "StringLiteral",
-      "offset": 3598,
+      "offset": 3607,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckout.swift",
+      "kind": "Array",
+      "offset": 3650,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckout.swift",
+      "kind": "StringLiteral",
+      "offset": 3315,
+      "length": 12,
+      "value": "\"inai_ios_sdk.InaiCheckout\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCrypto.swift",
@@ -12106,6 +13576,482 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Utilities\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 1955,
+      "length": 7,
+      "value": "\":#[]@\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Utilities\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2060,
+      "length": 13,
+      "value": "\"!$&'()*+,;=\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Utilities\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2173,
+      "length": 54,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Utilities\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2202,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Utilities\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2226,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 803,
+      "length": 20,
+      "value": "\"inai_ios_sdk.WeakCrashEyeDelegate\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1707,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 1769,
+      "length": 9,
+      "value": "\"Not set\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 1832,
+      "length": 9,
+      "value": "\"Not set\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "Array",
+      "offset": 1953,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 2069,
+      "length": 12,
+      "value": "\"production\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5029,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "Array",
+      "offset": 5159,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 5302,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 5321,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5350,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5422,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 5428,
+      "length": 14,
+      "value": "\"inai_ios_sdk\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5468,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 5559,
+      "length": 35,
+      "value": "\"Frameworks\/inai_ios_sdk.framework\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5703,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 5754,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5761,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5888,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 5947,
+      "length": 16,
+      "value": "\"0x\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 5962,
+      "length": 58,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6002,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 6019,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6116,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 6179,
+      "length": 8,
+      "value": "\"system\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 6202,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6243,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 6260,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 6481,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 6654,
+      "length": 11,
+      "value": "\"Exception\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 6742,
+      "length": 13,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 6753,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 7104,
+      "length": 7,
+      "value": "\"crash\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7462,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7582,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "Array",
+      "offset": 7631,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 7768,
+      "length": 3,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 7787,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7816,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7888,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 7894,
+      "length": 14,
+      "value": "\"inai_ios_sdk\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7934,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 8025,
+      "length": 35,
+      "value": "\"Frameworks\/inai_ios_sdk.framework\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8169,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 8220,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8227,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8354,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 8413,
+      "length": 16,
+      "value": "\"0x\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 8428,
+      "length": 58,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8468,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 8485,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8582,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 8627,
+      "length": 8,
+      "value": "\"system\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 8650,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8691,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 8708,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 8911,
+      "length": 62,
+      "value": "\"Signal \""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 8947,
+      "length": 1,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 8957,
+      "length": 1,
+      "value": "\") was raised.\n\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 9110,
+      "length": 7,
+      "value": "\"Error\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 9189,
+      "length": 13,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 9200,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
+      "kind": "StringLiteral",
+      "offset": 9551,
+      "length": 7,
+      "value": "\"crash\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiPayoutsConfig.swift",
       "kind": "Dictionary",
       "offset": 1032,
@@ -12142,8 +14088,15 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
+      "kind": "Array",
+      "offset": 2228,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11687,
+      "offset": 14464,
       "length": 5,
       "value": "false"
     },
@@ -12230,6 +14183,41 @@
       "offset": 819,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/UploadCrashEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 255,
+      "length": 95,
+      "value": "\"https:\/\/e6524d854f5720e1585744f574b345b7@o822912.ingest.sentry.io\/api\/4505622533373952\/store\/\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/UploadCrashEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 380,
+      "length": 34,
+      "value": "\"1bbe2dde2f6911ee81f242958b93d921\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/UploadCrashEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 441,
+      "length": 34,
+      "value": "\"e6524d854f5720e1585744f574b345b7\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/UploadCrashEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 510,
+      "length": 12,
+      "value": "\"production\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/UploadCrashEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 6010,
+      "length": 4,
+      "value": "\"no\""
     }
   ]
 }

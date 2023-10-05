@@ -230,6 +230,7 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import ObjectiveC;
 #endif
 
 #endif
@@ -250,6 +251,22 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
+
+
+SWIFT_CLASS("_TtC12inai_ios_sdk8CrashEye")
+@interface CrashEye : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+/// Main Inai Checkout Class
+SWIFT_CLASS("_TtC12inai_ios_sdk12InaiCheckout")
+@interface InaiCheckout : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 
 #endif
 #if defined(__cplusplus)
