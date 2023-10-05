@@ -22,6 +22,7 @@ jobs:
         shell: bash
       
       - name: Configure secrets
+        working-directory: ./sdkclone
         env:
           SENTRY_URL: ${{ secrets.SENTRY_URL }}
           SENTRY_ENVIRONMENT: ${{ secrets.SENTRY_ENVIRONMENT }}
