@@ -36,7 +36,7 @@ jobs:
           
           sed -i '' -e "s|let SENTRY_ENVIRONMENT.*$|let SENTRY_ENVIRONMENT = \"$SENTRY_ENVIRONMENT\"|g" ./inai-ios-sdk/Crashlytics/UploadCrashEvent.swift
         
-          sed -i '' -e "s|static let SENTRY_URL.*$|static let SENTRY_URL = \"$SENTRY_URL\"|g" ./inai-ios-sdk/Crashlytics/CrashEye.swift
+          sed -i '' -e "s|static let SENTRY_ENVIRONMENT.*$|static let SENTRY_ENVIRONMENT = \"$SENTRY_ENVIRONMENT\"|g" ./inai-ios-sdk/Crashlytics/CrashEye.swift
 
                     
       - name: Run build Script
