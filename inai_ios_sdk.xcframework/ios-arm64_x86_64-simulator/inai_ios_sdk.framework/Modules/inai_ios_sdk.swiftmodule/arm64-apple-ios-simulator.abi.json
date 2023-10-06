@@ -14215,7 +14215,7 @@
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/UploadCrashEvent.swift",
       "kind": "StringLiteral",
-      "offset": 6010,
+      "offset": 6071,
       "length": 4,
       "value": "\"no\""
     }
