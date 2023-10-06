@@ -13648,406 +13648,406 @@
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 2069,
+      "offset": 2074,
       "length": 12,
       "value": "\"production\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "BooleanLiteral",
-      "offset": 5029,
+      "offset": 5034,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "Array",
-      "offset": 5159,
+      "offset": 5164,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 5302,
+      "offset": 5307,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 5321,
+      "offset": 5326,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "BooleanLiteral",
-      "offset": 5350,
+      "offset": 5355,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "IntegerLiteral",
-      "offset": 5422,
+      "offset": 5427,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 5428,
+      "offset": 5433,
       "length": 14,
       "value": "\"inai_ios_sdk\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "BooleanLiteral",
-      "offset": 5468,
+      "offset": 5473,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 5559,
+      "offset": 5564,
       "length": 35,
       "value": "\"Frameworks\/inai_ios_sdk.framework\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "IntegerLiteral",
-      "offset": 5703,
+      "offset": 5708,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 5754,
+      "offset": 5759,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "IntegerLiteral",
-      "offset": 5761,
+      "offset": 5766,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "IntegerLiteral",
-      "offset": 5888,
+      "offset": 5893,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 5947,
+      "offset": 5952,
       "length": 16,
       "value": "\"0x\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 5962,
+      "offset": 5967,
       "length": 58,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "IntegerLiteral",
-      "offset": 6002,
+      "offset": 6007,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 6019,
+      "offset": 6024,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "IntegerLiteral",
-      "offset": 6116,
+      "offset": 6121,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 6179,
+      "offset": 6184,
       "length": 8,
       "value": "\"system\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 6202,
+      "offset": 6207,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "IntegerLiteral",
-      "offset": 6243,
+      "offset": 6248,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 6260,
+      "offset": 6265,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 6481,
+      "offset": 6486,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 6654,
+      "offset": 6659,
       "length": 11,
       "value": "\"Exception\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 6742,
+      "offset": 6747,
       "length": 13,
       "value": "\"(\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 6753,
+      "offset": 6758,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 7104,
+      "offset": 7109,
       "length": 7,
       "value": "\"crash\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "BooleanLiteral",
-      "offset": 7462,
+      "offset": 7467,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "IntegerLiteral",
-      "offset": 7582,
+      "offset": 7587,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "Array",
-      "offset": 7631,
+      "offset": 7636,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 7768,
+      "offset": 7773,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 7787,
+      "offset": 7792,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "BooleanLiteral",
-      "offset": 7816,
+      "offset": 7821,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "IntegerLiteral",
-      "offset": 7888,
+      "offset": 7893,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 7894,
+      "offset": 7899,
       "length": 14,
       "value": "\"inai_ios_sdk\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "BooleanLiteral",
-      "offset": 7934,
+      "offset": 7939,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 8025,
+      "offset": 8030,
       "length": 35,
       "value": "\"Frameworks\/inai_ios_sdk.framework\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "IntegerLiteral",
-      "offset": 8169,
+      "offset": 8174,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 8220,
+      "offset": 8225,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "IntegerLiteral",
-      "offset": 8227,
+      "offset": 8232,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "IntegerLiteral",
-      "offset": 8354,
+      "offset": 8359,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 8413,
+      "offset": 8418,
       "length": 16,
       "value": "\"0x\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 8428,
+      "offset": 8433,
       "length": 58,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "IntegerLiteral",
-      "offset": 8468,
+      "offset": 8473,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 8485,
+      "offset": 8490,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "IntegerLiteral",
-      "offset": 8582,
+      "offset": 8587,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 8627,
+      "offset": 8632,
       "length": 8,
       "value": "\"system\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 8650,
+      "offset": 8655,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "IntegerLiteral",
-      "offset": 8691,
+      "offset": 8696,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 8708,
+      "offset": 8713,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 8911,
+      "offset": 8916,
       "length": 62,
       "value": "\"Signal \""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 8947,
+      "offset": 8952,
       "length": 1,
       "value": "\"(\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 8957,
+      "offset": 8962,
       "length": 1,
       "value": "\") was raised.\n\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 9110,
+      "offset": 9115,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 9189,
+      "offset": 9194,
       "length": 13,
       "value": "\"(\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 9200,
+      "offset": 9205,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
       "kind": "StringLiteral",
-      "offset": 9551,
+      "offset": 9556,
       "length": 7,
       "value": "\"crash\""
     },
@@ -14187,35 +14187,21 @@
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/UploadCrashEvent.swift",
       "kind": "StringLiteral",
-      "offset": 255,
-      "length": 95,
-      "value": "\"https:\/\/e6524d854f5720e1585744f574b345b7@o822912.ingest.sentry.io\/api\/4505622533373952\/store\/\""
+      "offset": 260,
+      "length": 45,
+      "value": "\"https:\/\/payments.inai.io\/v1\/crashlytics-log\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/UploadCrashEvent.swift",
       "kind": "StringLiteral",
-      "offset": 380,
-      "length": 34,
-      "value": "\"1bbe2dde2f6911ee81f242958b93d921\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/UploadCrashEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 441,
-      "length": 34,
-      "value": "\"e6524d854f5720e1585744f574b345b7\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/UploadCrashEvent.swift",
-      "kind": "StringLiteral",
-      "offset": 510,
+      "offset": 346,
       "length": 12,
       "value": "\"production\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/UploadCrashEvent.swift",
       "kind": "StringLiteral",
-      "offset": 6071,
+      "offset": 5218,
       "length": 4,
       "value": "\"no\""
     }
