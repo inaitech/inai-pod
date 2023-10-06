@@ -24,20 +24,14 @@ jobs:
       - name: Configure secrets
         working-directory: ./sdkclone
         env:
-          SENTRY_URL: ${{ secrets.SENTRY_URL }}
-          SENTRY_ENVIRONMENT: ${{ secrets.SENTRY_ENVIRONMENT }}
-          SENTRY_SECRET: ${{ secrets.SENTRY_SECRET }}
-          SENTRY_KEY: ${{ secrets.SENTRY_KEY }}
+          CRASHLYTICS_URL: ${{ secrets.CRASHLYTICS_URL }}
+          CRASHLYTICS_ENVIRONMENT: ${{ secrets.CRASHLYTICS_ENVIRONMENT }}
         run: |
-          sed -i '' -e "s|let SENTRY_URL.*$|let SENTRY_URL = \"$SENTRY_URL\"|g" ./inai-ios-sdk/Crashlytics/UploadCrashEvent.swift
+          sed -i '' -e "s|let CRASHLYTICS_URL.*$|let SENTRY_URL = \"$CRASHLYTICS_URL\"|g" ./inai-ios-sdk/Crashlytics/UploadCrashEvent.swift
           
-          sed -i '' -e "s|let SENTRY_SECRET.*$|let SENTRY_SECRET = \"$SENTRY_SECRET\"|g" ./inai-ios-sdk/Crashlytics/UploadCrashEvent.swift
-          
-          sed -i '' -e "s|let SENTRY_KEY.*$|let SENTRY_KEY = \"$SENTRY_KEY\"|g" ./inai-ios-sdk/Crashlytics/UploadCrashEvent.swift
-          
-          sed -i '' -e "s|let SENTRY_ENVIRONMENT.*$|let SENTRY_ENVIRONMENT = \"$SENTRY_ENVIRONMENT\"|g" ./inai-ios-sdk/Crashlytics/UploadCrashEvent.swift
+          sed -i '' -e "s|let CRASHLYTICS_ENVIRONMENT.*$|let CRASHLYTICS_ENVIRONMENT = \"$CRASHLYTICS_ENVIRONMENT\"|g" ./inai-ios-sdk/Crashlytics/UploadCrashEvent.swift
         
-          sed -i '' -e "s|static let SENTRY_ENVIRONMENT.*$|static let SENTRY_ENVIRONMENT = \"$SENTRY_ENVIRONMENT\"|g" ./inai-ios-sdk/Crashlytics/CrashEye.swift
+          sed -i '' -e "s|static let CRASHLYTICS_ENVIRONMENT.*$|static let CRASHLYTICS_ENVIRONMENT = \"$CRASHLYTICS_ENVIRONMENT\"|g" ./inai-ios-sdk/Crashlytics/CrashEye.swift
 
                     
       - name: Run build Script
