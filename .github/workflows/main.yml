@@ -27,7 +27,7 @@ jobs:
           CRASHLYTICS_URL: ${{ secrets.CRASHLYTICS_URL }}
           CRASHLYTICS_ENVIRONMENT: ${{ secrets.CRASHLYTICS_ENVIRONMENT }}
         run: |
-          sed -i '' -e "s|let CRASHLYTICS_URL.*$|let SENTRY_URL = \"$CRASHLYTICS_URL\"|g" ./inai-ios-sdk/Crashlytics/UploadCrashEvent.swift
+          sed -i '' -e "s|let CRASHLYTICS_URL.*$|let CRASHLYTICS_URL = \"$CRASHLYTICS_URL\"|g" ./inai-ios-sdk/Crashlytics/UploadCrashEvent.swift
           
           sed -i '' -e "s|let CRASHLYTICS_ENVIRONMENT.*$|let CRASHLYTICS_ENVIRONMENT = \"$CRASHLYTICS_ENVIRONMENT\"|g" ./inai-ios-sdk/Crashlytics/UploadCrashEvent.swift
         
