@@ -145,6 +145,7 @@ public struct InaiApplePayRequestData {
   public func updateCTA(ctaConfig: inai_ios_sdk.InaiCTAConfig)
   public static func convertPaymentTokenToDict(payment: PassKit.PKPayment) -> [Swift.String : Any]
   public static func getApplePayRequestData(paymentMethodOptionsData: [Swift.String : Any]) -> inai_ios_sdk.InaiApplePayRequestData?
+  public static func getApplePayRequestConfigsData(paymentMethodOptionsData: [Swift.String : Any]) -> inai_ios_sdk.InaiApplePayRequestData?
   public static func getApplePaymentRequest(paymentRequestData: inai_ios_sdk.InaiApplePayRequestData) -> PassKit.PKPaymentRequest
   @objc deinit
 }
@@ -256,7 +257,8 @@ public struct InaiConfig : Swift.Codable {
   public var planId: Swift.String?
   public var countryCode: Swift.String?
   public var customer: inai_ios_sdk.InaiConfig_Customer?
-  public init(token: Swift.String!, orderId: Swift.String? = nil, planId: Swift.String? = nil, styles: inai_ios_sdk.InaiConfig_Styles? = nil, ctaText: Swift.String? = nil, timeout: Swift.Int? = nil, countryCode: Swift.String? = nil, changeLocation: Swift.String? = nil, redirectUrl: Swift.String? = nil, customer: inai_ios_sdk.InaiConfig_Customer? = nil, availablePaymentMethodOptions: [Swift.String]? = nil, usePaymentMethodOption: Swift.String? = nil, locale: Swift.String? = nil)
+  public var presentationMode: inai_ios_sdk.InaiPresentationMode?
+  public init(token: Swift.String!, orderId: Swift.String? = nil, planId: Swift.String? = nil, styles: inai_ios_sdk.InaiConfig_Styles? = nil, ctaText: Swift.String? = nil, timeout: Swift.Int? = nil, countryCode: Swift.String? = nil, changeLocation: Swift.String? = nil, redirectUrl: Swift.String? = nil, customer: inai_ios_sdk.InaiConfig_Customer? = nil, availablePaymentMethodOptions: [Swift.String]? = nil, usePaymentMethodOption: Swift.String? = nil, locale: Swift.String? = nil, presentationMode: inai_ios_sdk.InaiPresentationMode? = .standard)
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
@@ -304,6 +306,15 @@ public struct Inai_PayoutMethodResult {
   public var data: [Swift.String : Any]
   public init(status: inai_ios_sdk.Inai_PayoutMethodStatus = .canceled, data: [Swift.String : Any] = [:])
 }
+public enum InaiPresentationMode : Swift.String, Swift.Codable {
+  case standard
+  case fullScreen
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public protocol InaiAddPayoutMethodDelegate {
   func payoutMethodAdded(with result: inai_ios_sdk.Inai_PayoutMethodResult)
 }
@@ -347,6 +358,9 @@ extension inai_ios_sdk.Inai_ExecuteStatus : Swift.RawRepresentable {}
 extension inai_ios_sdk.InaiCrypto_EstimateStatus : Swift.Equatable {}
 extension inai_ios_sdk.InaiCrypto_EstimateStatus : Swift.Hashable {}
 extension inai_ios_sdk.InaiCrypto_EstimateStatus : Swift.RawRepresentable {}
+extension inai_ios_sdk.InaiPresentationMode : Swift.Equatable {}
+extension inai_ios_sdk.InaiPresentationMode : Swift.Hashable {}
+extension inai_ios_sdk.InaiPresentationMode : Swift.RawRepresentable {}
 extension inai_ios_sdk.Inai_PayoutMethodStatus : Swift.Equatable {}
 extension inai_ios_sdk.Inai_PayoutMethodStatus : Swift.Hashable {}
 extension inai_ios_sdk.Inai_PayoutMethodStatus : Swift.RawRepresentable {}

@@ -3713,6 +3713,56 @@
           },
           {
             "kind": "Function",
+            "name": "getApplePayRequestConfigsData",
+            "printedName": "getApplePayRequestConfigsData(paymentMethodOptionsData:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "inai_ios_sdk.InaiApplePayRequestData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InaiApplePayRequestData",
+                    "printedName": "inai_ios_sdk.InaiApplePayRequestData",
+                    "usr": "s:12inai_ios_sdk23InaiApplePayRequestDataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12inai_ios_sdk12InaiCheckoutC29getApplePayRequestConfigsData020paymentMethodOptionsK0AA0dghiK0VSgSDySSypG_tFZ",
+            "mangledName": "$s12inai_ios_sdk12InaiCheckoutC29getApplePayRequestConfigsData020paymentMethodOptionsK0AA0dghiK0VSgSDySSypG_tFZ",
+            "moduleName": "inai_ios_sdk",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getApplePaymentRequest",
             "printedName": "getApplePaymentRequest(paymentRequestData:)",
             "children": [
@@ -10358,9 +10408,119 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "presentationMode",
+            "printedName": "presentationMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "inai_ios_sdk.InaiPresentationMode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InaiPresentationMode",
+                    "printedName": "inai_ios_sdk.InaiPresentationMode",
+                    "usr": "s:12inai_ios_sdk20InaiPresentationModeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12inai_ios_sdk10InaiConfigV16presentationModeAA0d12PresentationG0OSgvp",
+            "mangledName": "$s12inai_ios_sdk10InaiConfigV16presentationModeAA0d12PresentationG0OSgvp",
+            "moduleName": "inai_ios_sdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "inai_ios_sdk.InaiPresentationMode?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InaiPresentationMode",
+                        "printedName": "inai_ios_sdk.InaiPresentationMode",
+                        "usr": "s:12inai_ios_sdk20InaiPresentationModeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12inai_ios_sdk10InaiConfigV16presentationModeAA0d12PresentationG0OSgvg",
+                "mangledName": "$s12inai_ios_sdk10InaiConfigV16presentationModeAA0d12PresentationG0OSgvg",
+                "moduleName": "inai_ios_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "inai_ios_sdk.InaiPresentationMode?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InaiPresentationMode",
+                        "printedName": "inai_ios_sdk.InaiPresentationMode",
+                        "usr": "s:12inai_ios_sdk20InaiPresentationModeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12inai_ios_sdk10InaiConfigV16presentationModeAA0d12PresentationG0OSgvs",
+                "mangledName": "$s12inai_ios_sdk10InaiConfigV16presentationModeAA0d12PresentationG0OSgvs",
+                "moduleName": "inai_ios_sdk",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12inai_ios_sdk10InaiConfigV16presentationModeAA0d12PresentationG0OSgvM",
+                "mangledName": "$s12inai_ios_sdk10InaiConfigV16presentationModeAA0d12PresentationG0OSgvM",
+                "moduleName": "inai_ios_sdk",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(token:orderId:planId:styles:ctaText:timeout:countryCode:changeLocation:redirectUrl:customer:availablePaymentMethodOptions:usePaymentMethodOption:locale:)",
+            "printedName": "init(token:orderId:planId:styles:ctaText:timeout:countryCode:changeLocation:redirectUrl:customer:availablePaymentMethodOptions:usePaymentMethodOption:locale:presentationMode:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -10569,11 +10729,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "inai_ios_sdk.InaiPresentationMode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InaiPresentationMode",
+                    "printedName": "inai_ios_sdk.InaiPresentationMode",
+                    "usr": "s:12inai_ios_sdk20InaiPresentationModeO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12inai_ios_sdk10InaiConfigV5token7orderId04planH06styles7ctaText7timeout11countryCode14changeLocation11redirectUrl8customer29availablePaymentMethodOptions03usevW6Option6localeACSSSg_A2qA0dE7_StylesVSgAQSiSgA3qA0dE9_CustomerVSgSaySSGSgA2Qtcfc",
-            "mangledName": "$s12inai_ios_sdk10InaiConfigV5token7orderId04planH06styles7ctaText7timeout11countryCode14changeLocation11redirectUrl8customer29availablePaymentMethodOptions03usevW6Option6localeACSSSg_A2qA0dE7_StylesVSgAQSiSgA3qA0dE9_CustomerVSgSaySSGSgA2Qtcfc",
+            "usr": "s:12inai_ios_sdk10InaiConfigV5token7orderId04planH06styles7ctaText7timeout11countryCode14changeLocation11redirectUrl8customer29availablePaymentMethodOptions03usevW6Option6locale16presentationModeACSSSg_A2rA0dE7_StylesVSgARSiSgA3rA0dE9_CustomerVSgSaySSGSgA2rA0D16PresentationModeOSgtcfc",
+            "mangledName": "$s12inai_ios_sdk10InaiConfigV5token7orderId04planH06styles7ctaText7timeout11countryCode14changeLocation11redirectUrl8customer29availablePaymentMethodOptions03usevW6Option6locale16presentationModeACSSSg_A2rA0dE7_StylesVSgARSiSgA3rA0dE9_CustomerVSgSaySSGSgA2rA0D16PresentationModeOSgtcfc",
             "moduleName": "inai_ios_sdk",
             "declAttributes": [
               "AccessControl"
@@ -12158,6 +12333,219 @@
         "moduleName": "inai_ios_sdk"
       },
       {
+        "kind": "TypeDecl",
+        "name": "InaiPresentationMode",
+        "printedName": "InaiPresentationMode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "standard",
+            "printedName": "standard",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(inai_ios_sdk.InaiPresentationMode.Type) -> inai_ios_sdk.InaiPresentationMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InaiPresentationMode",
+                    "printedName": "inai_ios_sdk.InaiPresentationMode",
+                    "usr": "s:12inai_ios_sdk20InaiPresentationModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "inai_ios_sdk.InaiPresentationMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InaiPresentationMode",
+                        "printedName": "inai_ios_sdk.InaiPresentationMode",
+                        "usr": "s:12inai_ios_sdk20InaiPresentationModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12inai_ios_sdk20InaiPresentationModeO8standardyA2CmF",
+            "mangledName": "$s12inai_ios_sdk20InaiPresentationModeO8standardyA2CmF",
+            "moduleName": "inai_ios_sdk"
+          },
+          {
+            "kind": "Var",
+            "name": "fullScreen",
+            "printedName": "fullScreen",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(inai_ios_sdk.InaiPresentationMode.Type) -> inai_ios_sdk.InaiPresentationMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InaiPresentationMode",
+                    "printedName": "inai_ios_sdk.InaiPresentationMode",
+                    "usr": "s:12inai_ios_sdk20InaiPresentationModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "inai_ios_sdk.InaiPresentationMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InaiPresentationMode",
+                        "printedName": "inai_ios_sdk.InaiPresentationMode",
+                        "usr": "s:12inai_ios_sdk20InaiPresentationModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12inai_ios_sdk20InaiPresentationModeO10fullScreenyA2CmF",
+            "mangledName": "$s12inai_ios_sdk20InaiPresentationModeO10fullScreenyA2CmF",
+            "moduleName": "inai_ios_sdk"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "inai_ios_sdk.InaiPresentationMode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InaiPresentationMode",
+                    "printedName": "inai_ios_sdk.InaiPresentationMode",
+                    "usr": "s:12inai_ios_sdk20InaiPresentationModeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12inai_ios_sdk20InaiPresentationModeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s12inai_ios_sdk20InaiPresentationModeO8rawValueACSgSS_tcfc",
+            "moduleName": "inai_ios_sdk",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12inai_ios_sdk20InaiPresentationModeO8rawValueSSvp",
+            "mangledName": "$s12inai_ios_sdk20InaiPresentationModeO8rawValueSSvp",
+            "moduleName": "inai_ios_sdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12inai_ios_sdk20InaiPresentationModeO8rawValueSSvg",
+                "mangledName": "$s12inai_ios_sdk20InaiPresentationModeO8rawValueSSvg",
+                "moduleName": "inai_ios_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12inai_ios_sdk20InaiPresentationModeO",
+        "mangledName": "$s12inai_ios_sdk20InaiPresentationModeO",
+        "moduleName": "inai_ios_sdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -12632,6 +13020,40 @@
         "printedName": "MachO",
         "declKind": "Import",
         "moduleName": "inai_ios_sdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "inai_ios_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "inai_ios_sdk"
+      },
+      {
+        "kind": "Import",
+        "name": "PassKit",
+        "printedName": "PassKit",
+        "declKind": "Import",
+        "moduleName": "inai_ios_sdk"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "inai_ios_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       }
     ],
     "json_format_version": 8
@@ -14068,42 +14490,70 @@
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1509,
+      "offset": 1599,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1556,
+      "offset": 1646,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2101,
+      "offset": 2191,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "Array",
-      "offset": 2228,
+      "offset": 2318,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2360,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2420,
+      "length": 32,
+      "value": "\"Do you wish to cancel payment?\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2485,
+      "length": 5,
+      "value": "\"Yes\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2522,
+      "length": 4,
+      "value": "\"No\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14464,
+      "offset": 15269,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1256,
+      "offset": 1346,
       "length": 26,
       "value": "\"inai_ios_sdk.InaiCheckoutViewController\""
     },
@@ -14204,6 +14654,41 @@
       "offset": 5218,
       "length": 4,
       "value": "\"no\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 894,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
+      "kind": "Array",
+      "offset": 934,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 408,
+      "length": 26,
+      "value": "\"inai_ios_sdk.InaiApplePayViewController\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 6734,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6805,
+      "length": 5,
+      "value": "false"
     }
   ]
 }
