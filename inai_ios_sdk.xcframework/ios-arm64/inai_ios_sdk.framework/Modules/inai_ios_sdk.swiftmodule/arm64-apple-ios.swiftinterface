@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name inai_ios_sdk
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
@@ -10,25 +10,26 @@ import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 @_exported import inai_ios_sdk
 @_hasMissingDesignatedInitializers public class InaiBreadCrumb : Swift.Codable {
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @_hasMissingDesignatedInitializers public class ValuesModel : Swift.Codable {
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @_hasMissingDesignatedInitializers public class InaiBreadCrumbDataModel : Swift.Codable {
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public struct CrashModel : Swift.Codable {
-  public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public enum Inai_Status : Swift.Int {
   case success
@@ -129,23 +130,21 @@ public struct InaiApplePayRequestData {
   public var canSetupCards: Swift.Bool
 }
 @objc public class InaiCheckout : ObjectiveC.NSObject {
-  public var cardIdentificationDelegate: inai_ios_sdk.InaiCardIdentificationDelegate?
+  public var cardIdentificationDelegate: (any inai_ios_sdk.InaiCardIdentificationDelegate)?
   public init?(config: inai_ios_sdk.InaiConfig)
-  public func presentCheckout(viewController: UIKit.UIViewController, delegate: inai_ios_sdk.InaiCheckoutDelegate)
-  public func addPaymentMethod(type: Swift.String, viewController: UIKit.UIViewController, delegate: inai_ios_sdk.InaiPaymentMethodDelegate)
-  public func presentPayWithPaymentMethod(paymentMethodId: Swift.String, viewController: UIKit.UIViewController, delegate: inai_ios_sdk.InaiCheckoutDelegate)
-  public func getCardInfo(cardNumber: Swift.String, viewController: UIKit.UIViewController, delegate: inai_ios_sdk.InaiCardInfoDelegate)
-  public func validateFields(paymentMethodOption: Swift.String, paymentDetails: [Swift.String : Any], viewController: UIKit.UIViewController, delegate: inai_ios_sdk.InaiValidateFieldsDelegate)
-  public func getInstallmentPlans(paymentMethodOption: Swift.String, paymentDetails: [Swift.String : Any], viewController: UIKit.UIViewController, delegate: inai_ios_sdk.InaiInstallmentPlansDelegate)
-  public func execute(payload: [Swift.String : Any], viewController: UIKit.UIViewController, delegate: inai_ios_sdk.InaiExecuteDelegate)
-  public func makePayment(paymentMethodOption: Swift.String, paymentDetails: [Swift.String : Any], viewController: UIKit.UIViewController, delegate: inai_ios_sdk.InaiCheckoutDelegate)
+  public func presentCheckout(viewController: UIKit.UIViewController, delegate: any inai_ios_sdk.InaiCheckoutDelegate)
+  public func addPaymentMethod(type: Swift.String, viewController: UIKit.UIViewController, delegate: any inai_ios_sdk.InaiPaymentMethodDelegate)
+  public func presentPayWithPaymentMethod(paymentMethodId: Swift.String, viewController: UIKit.UIViewController, delegate: any inai_ios_sdk.InaiCheckoutDelegate)
+  public func getCardInfo(cardNumber: Swift.String, viewController: UIKit.UIViewController, delegate: any inai_ios_sdk.InaiCardInfoDelegate)
+  public func validateFields(paymentMethodOption: Swift.String, paymentDetails: [Swift.String : Any], viewController: UIKit.UIViewController, delegate: any inai_ios_sdk.InaiValidateFieldsDelegate)
+  public func getInstallmentPlans(paymentMethodOption: Swift.String, paymentDetails: [Swift.String : Any], viewController: UIKit.UIViewController, delegate: any inai_ios_sdk.InaiInstallmentPlansDelegate)
+  public func execute(payload: [Swift.String : Any], viewController: UIKit.UIViewController, delegate: any inai_ios_sdk.InaiExecuteDelegate)
+  public func makePayment(paymentMethodOption: Swift.String, paymentDetails: [Swift.String : Any], viewController: UIKit.UIViewController, delegate: any inai_ios_sdk.InaiCheckoutDelegate)
   public func remove()
   public func disableCTA(paymentMethods: [Swift.String])
   public func enableCTA(paymentMethods: [Swift.String])
   public func updateCTA(ctaConfig: inai_ios_sdk.InaiCTAConfig)
   public static func convertPaymentTokenToDict(payment: PassKit.PKPayment) -> [Swift.String : Any]
-  public static func getApplePayRequestData(paymentMethodOptionsData: [Swift.String : Any]) -> inai_ios_sdk.InaiApplePayRequestData?
-  public static func getApplePayRequestConfigsData(paymentMethodOptionsData: [Swift.String : Any]) -> inai_ios_sdk.InaiApplePayRequestData?
   public static func getApplePaymentRequest(paymentRequestData: inai_ios_sdk.InaiApplePayRequestData) -> PassKit.PKPaymentRequest
   @objc deinit
 }
@@ -177,44 +176,44 @@ public struct InaiCryptoPurchaseDetails : Swift.Encodable {
   public let amount: Swift.String!
   public let currency: Swift.String!
   public init(token: Swift.String!, cryptoCurrency: Swift.String!, country: Swift.String!, paymentMethodOption: Swift.String!, amount: Swift.String!, currency: Swift.String!)
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @_hasMissingDesignatedInitializers public class InaiCrypto {
-  public static func getPurchaseEstimate(purchaseDetails: inai_ios_sdk.InaiCryptoPurchaseDetails, viewController: UIKit.UIViewController, delegate: inai_ios_sdk.InaiCryptoEstimateDelegate)
+  public static func getPurchaseEstimate(purchaseDetails: inai_ios_sdk.InaiCryptoPurchaseDetails, viewController: UIKit.UIViewController, delegate: any inai_ios_sdk.InaiCryptoEstimateDelegate)
   @objc deinit
 }
 public struct InaiConfig_Styles_Container : Swift.Codable {
   public init(background: Swift.String? = nil, backgroundColor: Swift.String? = nil, border: Swift.String? = nil, borderBottom: Swift.String? = nil, borderBottomColor: Swift.String? = nil, borderBottomLeftRadius: Swift.String? = nil, borderBottomRightRadius: Swift.String? = nil, borderBottomStyle: Swift.String? = nil, borderBottomWidth: Swift.String? = nil, borderColor: Swift.String? = nil, borderLeft: Swift.String? = nil, borderLeftColor: Swift.String? = nil, borderLeftStyle: Swift.String? = nil, borderLeftWidth: Swift.String? = nil, borderRadius: Swift.String? = nil, borderRight: Swift.String? = nil, borderRightColor: Swift.String? = nil, borderRightStyle: Swift.String? = nil, borderRightWidth: Swift.String? = nil, borderStyle: Swift.String? = nil, borderTop: Swift.String? = nil, borderTopColor: Swift.String? = nil, borderTopLeftRadius: Swift.String? = nil, borderTopRightRadius: Swift.String? = nil, borderTopStyle: Swift.String? = nil, borderTopWidth: Swift.String? = nil, borderWidth: Swift.String? = nil, boxShadow: Swift.String? = nil, color: Swift.String? = nil, webkitFontSmoothing: Swift.String? = nil, mozOsxFontSmoothing: Swift.String? = nil, fontFamily: Swift.String? = nil, fontStyle: Swift.String? = nil, fontSize: Swift.String? = nil, fontVariant: Swift.String? = nil, fontWeight: Swift.Int? = nil, fontSmoothing: Swift.String? = nil, height: Swift.String? = nil, letterSpacing: Swift.String? = nil, lineHeight: Swift.String? = nil, margin: Swift.String? = nil, marginBottom: Swift.String? = nil, marginLeft: Swift.String? = nil, marginRight: Swift.String? = nil, marginTop: Swift.String? = nil, outline: Swift.String? = nil, outlineOffset: Swift.String? = nil, padding: Swift.String? = nil, paddingBottom: Swift.String? = nil, paddingLeft: Swift.String? = nil, paddingRight: Swift.String? = nil, textDecoration: Swift.String? = nil, textShadow: Swift.String? = nil, textTransform: Swift.String? = nil, transition: Swift.String? = nil, width: Swift.String? = nil, display: Swift.String? = nil, alignItems: Swift.String? = nil, justifyContent: Swift.String? = nil, fill: Swift.String? = nil, clipPath: Swift.String? = nil)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct InaiComponent_Styles : Swift.Codable {
   public init(component: Swift.String? = nil, style: inai_ios_sdk.InaiConfig_Styles_Container? = nil)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct InaiConfig_Styles_Cta : Swift.Codable {
   public init(background: Swift.String? = nil, backgroundColor: Swift.String? = nil, border: Swift.String? = nil, borderBottom: Swift.String? = nil, borderBottomColor: Swift.String? = nil, borderBottomLeftRadius: Swift.String? = nil, borderBottomRightRadius: Swift.String? = nil, borderBottomStyle: Swift.String? = nil, borderBottomWidth: Swift.String? = nil, borderColor: Swift.String? = nil, borderLeft: Swift.String? = nil, borderLeftColor: Swift.String? = nil, borderLeftStyle: Swift.String? = nil, borderLeftWidth: Swift.String? = nil, borderRadius: Swift.String? = nil, borderRight: Swift.String? = nil, borderRightColor: Swift.String? = nil, borderRightStyle: Swift.String? = nil, borderRightWidth: Swift.String? = nil, borderStyle: Swift.String? = nil, borderTop: Swift.String? = nil, borderTopColor: Swift.String? = nil, borderTopLeftRadius: Swift.String? = nil, borderTopRightRadius: Swift.String? = nil, borderTopStyle: Swift.String? = nil, borderTopWidth: Swift.String? = nil, borderWidth: Swift.String? = nil, boxShadow: Swift.String? = nil, color: Swift.String? = nil, webkitFontSmoothing: Swift.String? = nil, mozOsxFontSmoothing: Swift.String? = nil, fontFamily: Swift.String? = nil, fontStyle: Swift.String? = nil, fontSize: Swift.String? = nil, fontVariant: Swift.String? = nil, fontWeight: Swift.Int? = nil, fontSmoothing: Swift.String? = nil, height: Swift.String? = nil, letterSpacing: Swift.String? = nil, lineHeight: Swift.String? = nil, margin: Swift.String? = nil, marginBottom: Swift.String? = nil, marginLeft: Swift.String? = nil, marginRight: Swift.String? = nil, marginTop: Swift.String? = nil, outline: Swift.String? = nil, outlineOffset: Swift.String? = nil, padding: Swift.String? = nil, paddingBottom: Swift.String? = nil, paddingLeft: Swift.String? = nil, paddingRight: Swift.String? = nil, textDecoration: Swift.String? = nil, textShadow: Swift.String? = nil, textTransform: Swift.String? = nil, transition: Swift.String? = nil, width: Swift.String? = nil, display: Swift.String? = nil, alignItems: Swift.String? = nil, justifyContent: Swift.String? = nil, fill: Swift.String? = nil, clipPath: Swift.String? = nil)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct InaiConfig_Styles_ErrorText : Swift.Codable {
   public init(color: Swift.String? = nil, fontSize: Swift.String? = nil, fontWeight: Swift.Int? = nil)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct InaiConfig_Customer : Swift.Codable {
   public var id: Swift.String?
   public var email: Swift.String?
   public var phoneNumber: Swift.String?
   public init(id: Swift.String? = nil, email: Swift.String? = nil, phoneNumber: Swift.String? = nil)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct InaiConfig_Styles : Swift.Codable {
   public init(container: inai_ios_sdk.InaiConfig_Styles_Container? = nil, cta: inai_ios_sdk.InaiConfig_Styles_Cta? = nil, errorText: inai_ios_sdk.InaiConfig_Styles_ErrorText? = nil, components: [inai_ios_sdk.InaiComponent_Styles]? = nil)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct Inai_Result {
   public var status: inai_ios_sdk.Inai_Status
@@ -259,13 +258,13 @@ public struct InaiConfig : Swift.Codable {
   public var customer: inai_ios_sdk.InaiConfig_Customer?
   public var presentationMode: inai_ios_sdk.InaiPresentationMode?
   public init(token: Swift.String!, orderId: Swift.String? = nil, planId: Swift.String? = nil, styles: inai_ios_sdk.InaiConfig_Styles? = nil, ctaText: Swift.String? = nil, timeout: Swift.Int? = nil, countryCode: Swift.String? = nil, changeLocation: Swift.String? = nil, redirectUrl: Swift.String? = nil, customer: inai_ios_sdk.InaiConfig_Customer? = nil, availablePaymentMethodOptions: [Swift.String]? = nil, usePaymentMethodOption: Swift.String? = nil, locale: Swift.String? = nil, presentationMode: inai_ios_sdk.InaiPresentationMode? = .standard)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct InaiCTAConfig : Swift.Codable {
   public init(text: Swift.String? = nil, styles: inai_ios_sdk.InaiConfig_Styles? = nil)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public protocol CrashEyeDelegate : ObjectiveC.NSObjectProtocol {
   func crashEyeDidCatchCrash(with model: inai_ios_sdk.CrashModel)
@@ -287,8 +286,8 @@ extension inai_ios_sdk.CrashEyeDelegate {
     get
   }
   public static var breadCrumb: [inai_ios_sdk.ValuesModel]
-  open class func add(token: Swift.String, orderId: Swift.String, countryCode: Swift.String?, delegate: inai_ios_sdk.CrashEyeDelegate)
-  open class func remove(delegate: inai_ios_sdk.CrashEyeDelegate)
+  open class func add(token: Swift.String, orderId: Swift.String, countryCode: Swift.String?, delegate: any inai_ios_sdk.CrashEyeDelegate)
+  open class func remove(delegate: any inai_ios_sdk.CrashEyeDelegate)
   @objc override dynamic public init()
   @objc deinit
 }
@@ -298,8 +297,8 @@ public struct InaiPayoutsConfig : Swift.Codable {
   public let sessionToken: Swift.String?
   public let locale: Swift.String?
   public init(token: Swift.String!, countryCode: Swift.String? = nil, sessionToken: Swift.String? = nil, locale: Swift.String? = nil)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct Inai_PayoutMethodResult {
   public var status: inai_ios_sdk.Inai_PayoutMethodStatus
@@ -330,8 +329,8 @@ public enum Inai_PayoutMethodStatus : Swift.Int {
 }
 public class InaiPayouts {
   public init?(config: inai_ios_sdk.InaiPayoutsConfig)
-  public func validateFields(payoutMethodOption: Swift.String, payoutMethodDetails: [Swift.String : Any], viewController: UIKit.UIViewController, delegate: inai_ios_sdk.InaiValidateFieldsDelegate)
-  public func addPayoutMethod(payoutMethodOption: Swift.String, payoutMethodDetails: [Swift.String : Any], viewController: UIKit.UIViewController, delegate: inai_ios_sdk.InaiAddPayoutMethodDelegate)
+  public func validateFields(payoutMethodOption: Swift.String, payoutMethodDetails: [Swift.String : Any], viewController: UIKit.UIViewController, delegate: any inai_ios_sdk.InaiValidateFieldsDelegate)
+  public func addPayoutMethod(payoutMethodOption: Swift.String, payoutMethodDetails: [Swift.String : Any], viewController: UIKit.UIViewController, delegate: any inai_ios_sdk.InaiAddPayoutMethodDelegate)
   @objc deinit
 }
 extension inai_ios_sdk.Inai_Status : Swift.Equatable {}

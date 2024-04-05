@@ -1,7 +1,7 @@
 framework module inai_ios_sdk {
   umbrella header "inai_ios_sdk.h"
-
   export *
+
   module * { export * }
 }
 
