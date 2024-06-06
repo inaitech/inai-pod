@@ -296,7 +296,8 @@ public struct InaiPayoutsConfig : Swift.Codable {
   public var countryCode: Swift.String?
   public let sessionToken: Swift.String?
   public let locale: Swift.String?
-  public init(token: Swift.String!, countryCode: Swift.String? = nil, sessionToken: Swift.String? = nil, locale: Swift.String? = nil)
+  public let presentationMode: inai_ios_sdk.InaiPresentationMode?
+  public init(token: Swift.String!, countryCode: Swift.String? = nil, sessionToken: Swift.String? = nil, locale: Swift.String? = nil, presentationMode: inai_ios_sdk.InaiPresentationMode? = .standard)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
