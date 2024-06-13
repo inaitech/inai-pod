@@ -4916,6 +4916,16 @@
         "hasMissingDesignatedInitializers": true
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "inai_ios_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "InaiConfig_Styles_Container",
         "printedName": "InaiConfig_Styles_Container",
@@ -14917,6 +14927,20 @@
       "value": "\"plist\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Utilities\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 165,
+      "length": 35,
+      "value": "\"https:\/\/payments-dev.inai-dev.com\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Utilities\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 238,
+      "length": 26,
+      "value": "\"https:\/\/payments.inai.io\""
+    },
+    {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiConfig.swift",
       "kind": "Dictionary",
       "offset": 16787,
@@ -15251,6 +15275,34 @@
       "offset": 2226,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Utilities\/Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2648,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Utilities\/Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2873,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Utilities\/Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2991,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Utilities\/Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3053,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/CrashEye.swift",
@@ -16788,301 +16840,329 @@
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "Dictionary",
-      "offset": 24050,
+      "offset": 24066,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "Dictionary",
-      "offset": 24438,
+      "offset": 24493,
       "length": 80,
       "value": "[(\"code\", \"APP_NOT_INSTALLED\"), (\"message\", \"Unable to open app to complete payment\")]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 24716,
+      "offset": 24783,
       "length": 21,
       "value": "\"inai_transaction_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 24767,
+      "offset": 24838,
       "length": 16,
       "value": "\"transaction_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25435,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25551,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 25819,
+      "offset": 26237,
       "length": 16,
       "value": "\"transaction-id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 25852,
+      "offset": 26270,
       "length": 16,
       "value": "\"transaction_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 25927,
+      "offset": 26345,
       "length": 18,
       "value": "\"payout-method-id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 25962,
+      "offset": 26380,
       "length": 18,
       "value": "\"payout_method_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 26050,
+      "offset": 26468,
       "length": 9,
       "value": "\"http:\/\/\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 26064,
+      "offset": 26482,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 26139,
+      "offset": 26557,
       "length": 10,
       "value": "\"https:\/\/\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 26154,
+      "offset": 26572,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 26264,
+      "offset": 26682,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 26517,
+      "offset": 26935,
       "length": 16,
       "value": "\"transaction-id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 26535,
+      "offset": 26953,
       "length": 16,
       "value": "\"transaction_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 26717,
+      "offset": 27135,
       "length": 8,
       "value": "\"status\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 26869,
+      "offset": 27287,
       "length": 18,
       "value": "\"payout-method-id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 26889,
+      "offset": 27307,
       "length": 18,
       "value": "\"payout_method_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 27528,
-      "length": 9,
-      "value": "\"success\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
-      "kind": "Dictionary",
-      "offset": 28169,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28297,
+      "offset": 27697,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 28798,
-      "length": 13,
-      "value": "\"inaiHandler\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 29058,
-      "length": 10,
-      "value": "\"cardInfo\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 29359,
+      "offset": 27842,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 29428,
+      "offset": 28307,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
+      "kind": "Dictionary",
+      "offset": 28948,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 29076,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 29577,
+      "length": 13,
+      "value": "\"inaiHandler\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 29837,
+      "length": 10,
+      "value": "\"cardInfo\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 30138,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 30207,
       "length": 13,
       "value": "\"inai_status\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 29508,
+      "offset": 30287,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 29515,
+      "offset": 30294,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 29557,
+      "offset": 30336,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 29564,
+      "offset": 30343,
       "length": 9,
       "value": "\"pending\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 29732,
+      "offset": 30511,
       "length": 13,
       "value": "\"inai_status\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 30118,
+      "offset": 30897,
       "length": 19,
       "value": "\"inaiActionHandler\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 30319,
+      "offset": 31098,
       "length": 11,
       "value": "\"actionKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 30357,
+      "offset": 31136,
       "length": 16,
       "value": "\"intentAppCheck\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 30494,
+      "offset": 31273,
       "length": 11,
       "value": "\"actionKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 30532,
+      "offset": 31311,
       "length": 26,
       "value": "\"updateTransactionDetails\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 30680,
+      "offset": 31459,
       "length": 11,
       "value": "\"actionKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 30718,
+      "offset": 31497,
       "length": 8,
       "value": "\"goBack\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 30828,
+      "offset": 31607,
       "length": 11,
       "value": "\"actionKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 30866,
+      "offset": 31645,
       "length": 18,
       "value": "\"localizedStrings\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 31180,
+      "offset": 31959,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 31381,
+      "offset": 32160,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 31840,
+      "offset": 32619,
       "length": 4,
       "value": "\"OK\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 32025,
+      "offset": 32804,
       "length": 4,
       "value": "true"
     },
@@ -17096,798 +17176,798 @@
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 32199,
+      "offset": 32978,
       "length": 15,
       "value": "\"initLogEvents\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 32894,
+      "offset": 33673,
       "length": 22,
       "value": "\"appMovedToBackGround\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 32975,
+      "offset": 33754,
       "length": 32,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 32985,
+      "offset": 33764,
       "length": 1,
       "value": "\"(jsArgs\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 33004,
+      "offset": 33783,
       "length": 1,
       "value": "\");\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 33131,
+      "offset": 33910,
       "length": 14,
       "value": "\"ui.lifecycle\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 33213,
+      "offset": 33992,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 33223,
+      "offset": 34002,
       "length": 12,
       "value": "\"navigation\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 33246,
+      "offset": 34025,
       "length": 30,
       "value": "\"App will moved to background\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 33324,
+      "offset": 34103,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 33338,
+      "offset": 34117,
       "length": 28,
       "value": "\"InaiCheckoutViewController\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 33375,
+      "offset": 34154,
       "length": 12,
       "value": "\"background\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 33409,
+      "offset": 34188,
       "length": 41,
       "value": "\"initialization \""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 33449,
+      "offset": 34228,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 33603,
+      "offset": 34382,
       "length": 14,
       "value": "\"ui.lifecycle\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 33685,
+      "offset": 34464,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 33695,
+      "offset": 34474,
       "length": 12,
       "value": "\"navigation\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 33718,
+      "offset": 34497,
       "length": 30,
       "value": "\"App will moved to background\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 33796,
+      "offset": 34575,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 33810,
+      "offset": 34589,
       "length": 28,
       "value": "\"InaiCheckoutViewController\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 33847,
+      "offset": 34626,
       "length": 18,
       "value": "\"background crash\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 33887,
+      "offset": 34666,
       "length": 41,
       "value": "\"initialization \""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 33927,
+      "offset": 34706,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 34087,
+      "offset": 34866,
       "length": 15,
       "value": "\"initLogEvents\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 34795,
+      "offset": 35574,
       "length": 22,
       "value": "\"appMovedToForeground\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 34876,
+      "offset": 35655,
       "length": 32,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 34886,
+      "offset": 35665,
       "length": 1,
       "value": "\"(jsArgs\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 34905,
+      "offset": 35684,
       "length": 1,
       "value": "\");\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 35032,
+      "offset": 35811,
       "length": 14,
       "value": "\"ui.lifecycle\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 35114,
+      "offset": 35893,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 35124,
+      "offset": 35903,
       "length": 12,
       "value": "\"navigation\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 35147,
+      "offset": 35926,
       "length": 29,
       "value": "\"App did moved to foreground\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 35224,
+      "offset": 36003,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 35238,
+      "offset": 36017,
       "length": 28,
       "value": "\"InaiCheckoutViewController\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 35275,
+      "offset": 36054,
       "length": 12,
       "value": "\"foreground\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 35309,
+      "offset": 36088,
       "length": 41,
       "value": "\"initialization \""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 35349,
+      "offset": 36128,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 35503,
+      "offset": 36282,
       "length": 14,
       "value": "\"ui.lifecycle\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 35585,
+      "offset": 36364,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 35595,
+      "offset": 36374,
       "length": 12,
       "value": "\"navigation\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 35618,
+      "offset": 36397,
       "length": 29,
       "value": "\"App did moved to foreground\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 35695,
+      "offset": 36474,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 35709,
+      "offset": 36488,
       "length": 28,
       "value": "\"InaiCheckoutViewController\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 35746,
+      "offset": 36525,
       "length": 18,
       "value": "\"foreground crash\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 35786,
+      "offset": 36565,
       "length": 41,
       "value": "\"initialization \""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 35826,
+      "offset": 36605,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 36134,
+      "offset": 36913,
       "length": 58,
       "value": "\",'\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 36166,
+      "offset": 36945,
       "length": 26,
       "value": "\"', \""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 36190,
+      "offset": 36969,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 36463,
+      "offset": 37242,
       "length": 19,
       "value": "\"inai.inai-ios-sdk\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 36537,
+      "offset": 37316,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 36567,
+      "offset": 37346,
       "length": 10,
       "value": "\"platform\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 36579,
+      "offset": 37358,
       "length": 5,
       "value": "\"iOS\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 36622,
+      "offset": 37401,
       "length": 12,
       "value": "\"deviceInfo\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 36692,
+      "offset": 37471,
       "length": 42,
       "value": "\",'\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 36706,
+      "offset": 37485,
       "length": 4,
       "value": "\"', '\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 36731,
+      "offset": 37510,
       "length": 3,
       "value": "\"' \""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 36869,
+      "offset": 37648,
       "length": 60,
       "value": "\",'\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 36883,
+      "offset": 37662,
       "length": 46,
       "value": "\"', \""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 36907,
+      "offset": 37686,
       "length": 1,
       "value": "\" , \""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 36927,
+      "offset": 37706,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 37165,
+      "offset": 37944,
       "length": 15,
       "value": "\"actionPayload\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 37247,
+      "offset": 38026,
       "length": 11,
       "value": "\"actionKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 37407,
+      "offset": 38186,
       "length": 29,
       "value": "\"LSApplicationQueriesSchemes\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "Array",
-      "offset": 37459,
+      "offset": 38238,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 37494,
+      "offset": 38273,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 37602,
+      "offset": 38381,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 37795,
+      "offset": 38574,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 37939,
+      "offset": 38718,
       "length": 17,
       "value": "\"urlCustomScheme\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 38109,
+      "offset": 38888,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 38166,
+      "offset": 38945,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 38433,
+      "offset": 39212,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 38494,
+      "offset": 39273,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 38725,
+      "offset": 39504,
       "length": 9,
       "value": "\"appName\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 38750,
+      "offset": 39529,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 38797,
+      "offset": 39576,
       "length": 13,
       "value": "\"isInstalled\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 38871,
+      "offset": 39650,
       "length": 9,
       "value": "\"appName\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 38936,
+      "offset": 39715,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 39141,
+      "offset": 39920,
       "length": 11,
       "value": "\"notifyKey\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 39163,
+      "offset": 39942,
       "length": 15,
       "value": "\"notifyPayload\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 39180,
+      "offset": 39959,
       "length": 15,
       "value": "\"deeplinksApps\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 39216,
+      "offset": 39995,
       "length": 16,
       "value": "\"hasPermissions\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 39295,
+      "offset": 40074,
       "length": 33,
       "value": "\"window.postMessage(\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 39325,
+      "offset": 40104,
       "length": 1,
       "value": "\");\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 39547,
+      "offset": 40326,
       "length": 15,
       "value": "\"actionPayload\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 39636,
+      "offset": 40415,
       "length": 13,
       "value": "\"alertDialog\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 39719,
+      "offset": 40498,
       "length": 27,
       "value": "\"cancelPaymentConfirmation\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 39824,
+      "offset": 40603,
       "length": 5,
       "value": "\"yes\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 39905,
+      "offset": 40684,
       "length": 4,
       "value": "\"no\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 40098,
+      "offset": 40877,
       "length": 15,
       "value": "\"actionPayload\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 40445,
+      "offset": 41224,
       "length": 26,
       "value": "\"Payment Canceled by User\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 40481,
+      "offset": 41260,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 40532,
+      "offset": 41311,
       "length": 18,
       "value": "\"PAYMENT_CANCELED\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 40560,
+      "offset": 41339,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 42026,
+      "offset": 42805,
       "length": 7,
       "value": "\"touch\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 42101,
+      "offset": 42880,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 42111,
+      "offset": 42890,
       "length": 6,
       "value": "\"user\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 42128,
+      "offset": 42907,
       "length": 20,
       "value": "\"Keyboard will show\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 42360,
+      "offset": 43139,
       "length": 7,
       "value": "\"touch\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 42435,
+      "offset": 43214,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 42445,
+      "offset": 43224,
       "length": 6,
       "value": "\"user\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 42462,
+      "offset": 43241,
       "length": 20,
       "value": "\"Keyboard will hide\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 42780,
+      "offset": 43559,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 43409,
+      "offset": 44188,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 43540,
+      "offset": 44319,
       "length": 7,
       "value": "\"touch\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 43615,
+      "offset": 44394,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 43625,
+      "offset": 44404,
       "length": 6,
       "value": "\"user\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 43642,
+      "offset": 44421,
       "length": 27,
       "value": "\"Payment cancelled by user\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 44551,
+      "offset": 45330,
       "length": 5,
       "value": "\"yes\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 44693,
+      "offset": 45472,
       "length": 27,
       "value": "\"Payment cancelled by user\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 44728,
+      "offset": 45507,
       "length": 11,
       "value": "\"Event Log\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 44749,
+      "offset": 45528,
       "length": 27,
       "value": "\"Payment cancelled by user\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 44802,
+      "offset": 45581,
       "length": 13,
       "value": "\"(\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 44813,
+      "offset": 45592,
       "length": 1,
       "value": "\")\""
     },
@@ -19266,301 +19346,301 @@
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9558,
+      "offset": 9689,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 9654,
+      "offset": 9785,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9954,
+      "offset": 10085,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10111,
+      "offset": 10242,
       "length": 26,
       "value": "\"Payment Canceled by User\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10147,
+      "offset": 10278,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10206,
+      "offset": 10337,
       "length": 18,
       "value": "\"PAYMENT_CANCELED\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10234,
+      "offset": 10365,
       "length": 6,
       "value": "\"code\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10594,
+      "offset": 10725,
       "length": 7,
       "value": "\"touch\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10669,
+      "offset": 10800,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10679,
+      "offset": 10810,
       "length": 6,
       "value": "\"user\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10696,
+      "offset": 10827,
       "length": 27,
       "value": "\"Payment cancelled by user\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11130,
+      "offset": 11261,
       "length": 5,
       "value": "\"yes\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11272,
+      "offset": 11403,
       "length": 27,
       "value": "\"Payment cancelled by user\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11307,
+      "offset": 11438,
       "length": 11,
       "value": "\"Event Log\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11328,
+      "offset": 11459,
       "length": 27,
       "value": "\"Payment cancelled by user\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11381,
+      "offset": 11512,
       "length": 13,
       "value": "\"(\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11392,
+      "offset": 11523,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11790,
+      "offset": 11921,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11991,
+      "offset": 12122,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "Array",
-      "offset": 12260,
+      "offset": 12391,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12633,
+      "offset": 12764,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12704,
+      "offset": 12835,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12779,
+      "offset": 12910,
       "length": 12,
       "value": "\"field_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12807,
+      "offset": 12938,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12836,
+      "offset": 12967,
       "length": 7,
       "value": "\"label\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12859,
+      "offset": 12990,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12894,
+      "offset": 13025,
       "length": 13,
       "value": "\"placeholder\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12923,
+      "offset": 13054,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12951,
+      "offset": 13082,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12973,
+      "offset": 13104,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13005,
+      "offset": 13136,
       "length": 10,
       "value": "\"required\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13029,
+      "offset": 13160,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13073,
+      "offset": 13204,
       "length": 13,
       "value": "\"validations\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13523,
+      "offset": 13654,
       "length": 9,
       "value": "\"pattern\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13611,
+      "offset": 13742,
       "length": 12,
       "value": "\"min_length\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13699,
+      "offset": 13830,
       "length": 12,
       "value": "\"max_length\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13785,
+      "offset": 13916,
       "length": 10,
       "value": "\"required\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13878,
+      "offset": 14009,
       "length": 18,
       "value": "\"input_regex_mask\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "Array",
-      "offset": 14272,
+      "offset": 14403,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14305,
+      "offset": 14436,
       "length": 24,
       "value": "\"payment_method_options\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14421,
+      "offset": 14552,
       "length": 11,
       "value": "\"rail_code\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14483,
+      "offset": 14614,
       "length": 13,
       "value": "\"form_fields\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "Array",
-      "offset": 14579,
+      "offset": 14710,
       "length": 2,
       "value": "[]"
     }
