@@ -12317,6 +12317,13 @@
         "moduleName": "inai_ios_sdk"
       },
       {
+        "kind": "Import",
+        "name": "AuthenticationServices",
+        "printedName": "AuthenticationServices",
+        "declKind": "Import",
+        "moduleName": "inai_ios_sdk"
+      },
+      {
         "kind": "TypeDecl",
         "name": "InaiPresentationMode",
         "printedName": "InaiPresentationMode",
@@ -13172,224 +13179,224 @@
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 1055,
+      "offset": 1060,
       "length": 7,
       "value": "\"level\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 1087,
+      "offset": 1092,
       "length": 10,
       "value": "\"category\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 1123,
+      "offset": 1128,
       "length": 11,
       "value": "\"timestamp\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 1155,
+      "offset": 1160,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 1185,
+      "offset": 1190,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 1215,
+      "offset": 1220,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 1055,
+      "offset": 1060,
       "length": 7,
       "value": "\"level\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 1087,
+      "offset": 1092,
       "length": 10,
       "value": "\"category\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 1123,
+      "offset": 1128,
       "length": 11,
       "value": "\"timestamp\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 1155,
+      "offset": 1160,
       "length": 6,
       "value": "\"type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 1185,
+      "offset": 1190,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 1215,
+      "offset": 1220,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 2398,
+      "offset": 2403,
       "length": 16,
       "value": "\"beingPresented\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 2437,
+      "offset": 2442,
       "length": 8,
       "value": "\"screen\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 2467,
+      "offset": 2472,
       "length": 7,
       "value": "\"state\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 2497,
+      "offset": 2502,
       "length": 8,
       "value": "\"action\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 2527,
+      "offset": 2532,
       "length": 7,
       "value": "\"title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 2555,
+      "offset": 2560,
       "length": 6,
       "value": "\"view\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 2398,
+      "offset": 2403,
       "length": 16,
       "value": "\"beingPresented\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 2437,
+      "offset": 2442,
       "length": 8,
       "value": "\"screen\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 2467,
+      "offset": 2472,
       "length": 7,
       "value": "\"state\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 2497,
+      "offset": 2502,
       "length": 8,
       "value": "\"action\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 2527,
+      "offset": 2532,
       "length": 7,
       "value": "\"title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 2555,
+      "offset": 2560,
       "length": 6,
       "value": "\"view\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 4889,
+      "offset": 4894,
       "length": 8,
       "value": "\"values\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 4889,
+      "offset": 4894,
       "length": 8,
       "value": "\"values\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 6337,
+      "offset": 6342,
       "length": 17,
       "value": "\"ios_sdk_version\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 6446,
+      "offset": 6451,
       "length": 13,
       "value": "\"ios_version\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 6337,
+      "offset": 6342,
       "length": 17,
       "value": "\"ios_sdk_version\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 6446,
+      "offset": 6451,
       "length": 13,
       "value": "\"ios_version\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 9412,
+      "offset": 9417,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/Crashlytics\/InaiModel.swift",
       "kind": "StringLiteral",
-      "offset": 9434,
+      "offset": 9439,
       "length": 2,
       "value": "\"\""
     },
@@ -14495,91 +14502,91 @@
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1599,
+      "offset": 1630,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1646,
+      "offset": 1677,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2191,
+      "offset": 2222,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "Array",
-      "offset": 2318,
+      "offset": 2349,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2360,
+      "offset": 2391,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2420,
+      "offset": 2451,
       "length": 32,
       "value": "\"Do you wish to cancel payment?\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2485,
+      "offset": 2516,
       "length": 5,
       "value": "\"Yes\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2522,
+      "offset": 2553,
       "length": 4,
       "value": "\"No\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2568,
+      "offset": 2599,
       "length": 9,
       "value": "\"Confirm\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2614,
+      "offset": 2645,
       "length": 9,
       "value": "\"Confirm\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2659,
+      "offset": 2690,
       "length": 8,
       "value": "\"Cancel\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15410,
+      "offset": 15474,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiCheckoutViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1346,
+      "offset": 1377,
       "length": 26,
       "value": "\"inai_ios_sdk.InaiCheckoutViewController\""
     },
