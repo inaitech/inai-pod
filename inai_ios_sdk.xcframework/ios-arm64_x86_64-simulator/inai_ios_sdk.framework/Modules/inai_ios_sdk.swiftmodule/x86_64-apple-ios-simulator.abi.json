@@ -14712,14 +14712,14 @@
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12764,
+      "offset": 12959,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/inai-pod\/inai-pod\/sdkclone\/inai-ios-sdk\/InaiApplePayViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12835,
+      "offset": 13030,
       "length": 5,
       "value": "false"
     }
